@@ -1,0 +1,84 @@
+/* This style is additional to what's included in the main legacy.css */
+.vid-app-container .left_column .vid-container {
+  padding: 0px !important;
+}
+.vid-app-container .left_column .vid_list ul li a {
+  display: inline-block !important;
+  width: 100%;
+}
+.vid-app-container .left_column .vid_list ul li a span {
+  float: right;
+  padding-right: 20px;
+}
+.vid-app-container .right_column {
+  background: #ebf1f3 !important;
+}
+.vid-app-container .right_column .cta_cont_1, .vid-app-container .right_column .cta_cont_2 {
+  background: #ffffff;
+  padding: 20px;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.vid-app-container .right_column .cta_cont_1 .btn-sm-orng, .vid-app-container .right_column .cta_cont_2 .btn-sm-orng {
+  padding: 9px 30px !important;
+}
+@media only screen and (max-width: 990px) {
+  .vid-app-container .right_column .cta_cont_1 img, .vid-app-container .right_column .cta_cont_2 img {
+    max-width: 35%;
+  }
+}
+@media only screen and (min-width: 991px) {
+  .vid-app-container .right_column .cta_cont_1 img, .vid-app-container .right_column .cta_cont_2 img {
+    max-width: 50%;
+  }
+}
+.vid-app-container .right_column .cta_cont_1 h6, .vid-app-container .right_column .cta_cont_2 h6 {
+  color: black;
+  font-size: .95em;
+  padding-bottom: 8px;
+  font-weight: 400 !important;
+}
+.vid-app-container .right_column .cta_cont_1 p, .vid-app-container .right_column .cta_cont_2 p {
+  color: black;
+  font-size: 14px;
+  padding: 10px 0 0 0;
+  width: 90%;
+}
+.vid-app-container .right_column .cta_cont_1 a, .vid-app-container .right_column .cta_cont_2 a {
+  display: inline-block;
+  margin: 15px 0;
+}
+
+@media only screen and (max-width: 479px) {
+  iframe#ytplayer-ehr, iframe#ytplayer-pm, iframe#ytplayer-billco, iframe#ytplayer-billco-2, iframe#ytplayer-marketing, iframe#ytplayer-managed {
+    width: 280px;
+    height: 200px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  iframe#ytplayer-ehr, iframe#ytplayer-pm, iframe#ytplayer-billco, iframe#ytplayer-billco-2, iframe#ytplayer-marketing, iframe#ytplayer-managed {
+    width: 440px;
+    height: 295px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+  iframe#ytplayer-ehr, iframe#ytplayer-pm, iframe#ytplayer-billco, iframe#ytplayer-billco-2, iframe#ytplayer-marketing, iframe#ytplayer-managed {
+    width: 440px;
+    height: 277px;
+  }
+}
+@media only screen and (min-width: 990px) {
+  iframe#ytplayer-ehr, iframe#ytplayer-pm, iframe#ytplayer-billco, iframe#ytplayer-billco-2, iframe#ytplayer-marketing, iframe#ytplayer-managed {
+    width: 100% !important;
+    height: 390px !important;
+  }
+}
+
+@media only screen and (min-width: 990px) {
+  .right_column {
+    display: inline-block;
+    width: 30%;
+    height: 805px !important;
+  }
+}

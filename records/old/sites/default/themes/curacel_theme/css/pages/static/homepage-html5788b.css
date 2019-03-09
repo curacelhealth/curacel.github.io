@@ -1,0 +1,552 @@
+/* Homepage only  */
+section.home-video {
+  height: 460px;
+}
+section.home-video .video-cont .vid-cntr {
+  top: 55%;
+}
+
+h1.main-title {
+  line-height: 65px;
+}
+
+/* Button style */
+#oplatform .btn-lg-orng, #oplatform .btn-lg-ltblue {
+  border: 0;
+  text-align: center;
+  border-radius: 50px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-transition: background-color 250ms ease-in;
+  -moz-transition: background-color 250ms ease-in;
+  transition: background-color 250ms ease-in;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  font-size: 14px;
+  padding: 11px 26px;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #f7941d;
+  border-radius: 50px;
+}
+#oplatform .btn-lg-orng:hover {
+  color: #FFF;
+  background-color: #ffad4a;
+}
+#oplatform .btn-lg-ltblue {
+  background-color: #4B9DC3;
+}
+#oplatform .btn-lg-ltblue:hover {
+  color: #FFF;
+  background-color: #4BB0DE;
+}
+
+/* Main */
+#opCont {
+  margin: 0;
+  padding: 0;
+  height: 548px;
+  position: relative;
+  background: #FFF url(../../../../../files/ck/webupload/images/banners/04/photobackdrop.jpg) right top no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+  /*background: url(../../../../../themes/curacel_theme/images/optimized/home/smile-doctor.jpg) right top no-repeat;*/
+}
+
+#oplatform {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #1b1d1e;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+#oplatform .opCont {
+  width: 999px;
+  height: 548px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+#oplatform .ani {
+  -webkit-transition: all 150ms ease-out;
+  -moz-transition: all 150ms ease-out;
+  -o-transition: all 150ms ease-out;
+  transition: all 150ms ease-out;
+}
+#oplatform h2.header {
+  font-weight: 400;
+  color: #FFF;
+  width: 100%;
+  font-size: 38px;
+  text-align: center;
+  position: absolute;
+  top: 47px;
+  z-index: 2;
+  margin: 1em 0;
+  line-height: 1.25em;
+}
+#oplatform h3.header {
+  font-weight: 400;
+  color: #CECECE;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  position: absolute;
+  top: 124px;
+  z-index: 2;
+  margin: 1em 0;
+  line-height: 1.5em;
+  padding: 0 20px;
+}
+#oplatform .featureP {
+  position: relative;
+  top: 188px;
+  left: 95px;
+  width: 812px;
+  height: 150px;
+  color: #FFF;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 48px;
+  z-index: 2;
+}
+#oplatform .modtree {
+  position: absolute;
+  top: 330px;
+  left: 95px;
+  width: 812px;
+  height: 60px;
+  color: #FFF;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 48px;
+  z-index: 2;
+  clip: rect(0px, 812px, 60px, 0px);
+  visibility: hidden;
+}
+#oplatform .modtree img {
+  width: 100%;
+}
+#oplatform .mod {
+  position: absolute;
+  top: 240px;
+  left: 0;
+  width: 180px;
+  height: 60px;
+  color: #DDD;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 64px;
+  cursor: pointer;
+  z-index: 2;
+  visibility: hidden;
+}
+#oplatform .mod img {
+  width: 50px;
+  float: left;
+  margin: 0 18px 0 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 8px;
+  border-radius: 50%;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+#oplatform .mod:hover {
+  color: #FFF;
+}
+#oplatform .mod:hover img {
+  -webkit-transform: scale(1.1) !important;
+  transform: scale(1.1) !important;
+}
+#oplatform .mod.mbilling span {
+  display: block;
+  float: left;
+  line-height: 22px;
+  margin: 11px 0 0 0;
+}
+#oplatform .mod.clinical {
+  left: 0px;
+}
+#oplatform .mod.billing {
+  left: 215px;
+}
+#oplatform .mod.mbilling {
+  left: 420px;
+}
+#oplatform .mod.marketing {
+  left: 625px;
+}
+#oplatform .nav {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 229px;
+  cursor: pointer;
+  z-index: 5;
+  visibility: hidden;
+}
+#oplatform .nav:hover {
+  -webkit-transform: scale(1.1) !important;
+  transform: scale(1.1) !important;
+}
+#oplatform .nav.navleft {
+  left: 25px;
+}
+#oplatform .nav.navright {
+  right: 25px;
+}
+#oplatform .appscreen {
+  width: 812px;
+  height: 370px;
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  margin: 0 auto;
+  background-color: #333;
+  background: #333 url(../../../../../files/ck/webupload/images/banners/04/home.jpg) left top no-repeat;
+  background-size: contain;
+  -webkit-background-size: contain;
+  border-radius: 6px;
+}
+#oplatform .appscreen.mod1 {
+  background-color: #CCC;
+  height: 300px;
+}
+#oplatform .appscreen.mod2 {
+  background-color: #DDD;
+  height: 300px;
+}
+#oplatform .appscreen.mod3 {
+  background-color: #EEE;
+  height: 300px;
+}
+/*#oplatform .appscreen.mod4 {
+  background-color: #AAA;
+  height: 300px;
+}*/
+#oplatform .featureHero {
+  text-align: center;
+  width: 700px;
+  height: 120px;
+  clear: both;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  visibility: hidden;
+}
+#oplatform .featureHero .imgCont {
+  float: left;
+}
+#oplatform .featureHero img {
+  width: 98px;
+  height: 98px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 18px;
+}
+#oplatform .featureHero h3 {
+  display: block;
+  /*float: left;*/
+  font-size: 22px;
+  color: #FFF;
+  font-weight: 500;
+  width: 110px;
+  margin: 0 0 60px 25px;
+  padding: 0;
+  text-align: left;
+}
+#oplatform .featureHero h3.mbill {
+  line-height: 26px;
+  margin-top: 26px;
+  height: 120px;
+}
+#oplatform .featureHero p {
+  text-align: left;
+  color: #EAEAEA;
+  font-size: 15px;
+  line-height: 150%;
+  padding: 0 0 0 20px;
+  float: left;
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: 400px;
+  margin-top: 30px;
+}
+#oplatform .cta {
+  margin: 0;
+  padding: 10px 0 0 20px;
+  text-align: left;
+  float: left;
+}
+#oplatform .modCont, #oplatform .featureHeroCont {
+  position: relative;
+  width: 500px;
+  height: 200px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+#oplatform.state2 .modtree, #oplatform.state2 .mod {
+  visibility: hidden;
+}
+#oplatform.state2 .featureHero {
+  visibility: hidden;
+}
+#oplatform.state2 .featureHero.mod1 {
+  visibility: visible;
+}
+#oplatform.state2 .nav {
+  visibility: hidden;
+}
+#oplatform.state2 .appscreen {
+  height: 140px;
+}
+
+/*#3A364E */
+/* workaround:jumping icons// #oplatform .mod:hover img {padding: 12px;margin: -4px 14px 0 -4px;} */
+#opCont .bgoverlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+#opCont .bgoverlay.botShadow {
+  width: 100%;
+  height: 75px;
+  top: auto;
+  bottom: 0;
+  z-index: 3;
+  opacity: 0.5;
+}
+#opCont .bgg {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#28243e+1,4c4f6b+100&0.9+0,0.8+100 */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI4MjQzZSIgc3RvcC1vcGFjaXR5PSIwLjkiLz4KICAgIDxzdG9wIG9mZnNldD0iMSUiIHN0b3AtY29sb3I9IiMyODI0M2UiIHN0b3Atb3BhY2l0eT0iMC45Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzRmNmIiIHN0b3Atb3BhY2l0eT0iMC44Ii8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+  background: -moz-linear-gradient(left, rgba(40, 36, 62, 0.9) 0%, rgba(40, 36, 62, 0.9) 1%, rgba(76, 79, 107, 0.8) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(40, 36, 62, 0.9) 0%, rgba(40, 36, 62, 0.9) 1%, rgba(76, 79, 107, 0.8) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(40, 36, 62, 0.9) 0%, rgba(40, 36, 62, 0.9) 1%, rgba(76, 79, 107, 0.8) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e628243e', endColorstr='#cc4c4f6b',GradientType=1 );
+  /* IE6-8 */
+}
+#opCont .bgg2 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,757575+100&0+0,0.25+100 */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3NTc1NzUiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(117, 117, 117, 0.25) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(117, 117, 117, 0.25) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(117, 117, 117, 0.25) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#40757575',GradientType=0 );
+  /* IE6-8 */
+}
+
+/* Responsive Style Block */
+/* BP - table */
+@media screen and (max-width: 1024px) {
+  #oplatform .opCont {
+    width: 100%;
+  }
+  #oplatform .appscreen {
+    width: 85%;
+    background-color: #ECEDF0;
+    border: 1px solid #353535;
+  }
+  #oplatform h2.header {
+    font-size: 32px;
+  }
+  #oplatform h3.header {
+    font-size: 16px;
+    top: 108px;
+  }
+  #oplatform .modCont, #oplatform .featureHeroCont {
+    width: 490px;
+  }
+  #oplatform .featureHero {
+    left: 0;
+    width: 100%;
+  }
+  #oplatform .featureHero .groupCol {
+    width: 120px;
+    height: 165px;
+    text-align: center;
+    float: left;
+  }
+  #oplatform .featureHero .imgCont {
+    float: none;
+  }
+  #oplatform .featureHero img {
+    width: 75px;
+    height: 75px;
+  }
+  #oplatform .featureHero h3 {
+    font-size: 18px;
+    float: none;
+    line-height: 22px;
+    text-align: center;
+    margin: 10px 0 0 0;
+    width: 100%;
+  }
+  #oplatform .featureHero h3.mbill {
+    height: 60px;
+    margin-top: 12px;
+    line-height: 23px;
+  }
+  #oplatform .featureHero p {
+    float: left;
+    width: 340px;
+    padding: 0 0 0 30px;
+    margin: 0 0 20px 0;
+  }
+  #oplatform .mod {
+    font-size: 16px;
+  }
+  #oplatform .mod.clinical {
+    left: 48px;
+    top: 200px;
+  }
+  #oplatform .mod.billing {
+    left: 290px;
+    top: 200px;
+  }
+  #oplatform .mod.mbilling {
+    left: 48px;
+    top: 290px;
+  }
+  #oplatform .mod.marketing {
+    left: 290px;
+    top: 290px;
+  }
+  #oplatform .cta {
+    padding: 4px 0 0 28px;
+  }
+  #oplatform .btn-lg-orng, #oplatform .btn-lg-ltblue {
+    padding: 10px 22px !important;
+  }
+  #oplatform .modtree {
+    display: none;
+  }
+}
+/* BP - mobile */
+@media screen and (max-width: 568px) {
+  #oplatform {
+    width: 100%;
+  }
+  #oplatform h2.header {
+    font-size: 24px;
+  }
+  #oplatform h3.header {
+    font-size: 16px;
+    top: 106px;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+  #oplatform .modCont {
+    width: 340px;
+  }
+  #oplatform .mod {
+    font-size: 16px;
+    width: 110px;
+    height: 100px;
+    text-align: center;
+  }
+  #oplatform .mod span {
+    display: block;
+    float: none;
+    line-height: 23px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  #oplatform .mod.mbilling span {
+    float: none;
+    line-height: 19px;
+  }
+  #oplatform .mod img {
+    margin: 0 auto 6px auto;
+    display: block;
+    float: none;
+  }
+  #oplatform .mod.clinical {
+    left: 30px;
+    top: 180px;
+  }
+  #oplatform .mod.billing {
+    left: 195px;
+    top: 180px;
+  }
+  #oplatform .mod.mbilling {
+    left: 30px;
+    top: 300px;
+  }
+  #oplatform .mod.marketing {
+    left: 195px;
+    top: 300px;
+  }
+  #oplatform .featureHeroCont, #oplatform .modtree, #oplatform .nav {
+    display: none;
+  }
+  #oplatform .mod {
+    display: block;
+    visibility: visible;
+  }
+  #oplatform .appscreen {
+    bottom: -265px;
+    background-color: transparent;
+    -webkit-transform: none;
+    /* Safari and Chrome */
+    -moz-transform: none;
+    /* Firefox */
+    -ms-transform: none;
+    /* IE 9 */
+    -o-transform: none;
+    /* Opera */
+    transform: none;
+  }
+
+  /* no animation on mobile */
+}
+@media screen and (max-width: 380px) {
+  #oplatform h2.header {
+    font-size: 24px;
+    top: 17px;
+  }
+  #oplatform .modCont {
+    width: 260px;
+  }
+  #oplatform .mod span {
+    font-size: 14px;
+  }
+  #oplatform .mod.clinical {
+    left: 0;
+    top: 180px;
+  }
+  #oplatform .mod.billing {
+    left: 130px;
+    top: 180px;
+  }
+  #oplatform .mod.mbilling {
+    left: 0;
+    top: 300px;
+  }
+  #oplatform .mod.marketing {
+    left: 130px;
+    top: 300px;
+  }
+}

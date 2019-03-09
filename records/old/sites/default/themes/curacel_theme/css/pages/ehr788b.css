@@ -1,0 +1,2509 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/** ---------------------------------------------------------
+      Global Colors
+    ---------------------------------------------------------*/
+/* isn't this name a little vague?  we use a few background colors? */
+/**
+    Font Families
+*/
+/***Fonts and Font Weights****/
+/** ---------------------------------------------------------
+      Global Colors
+    ---------------------------------------------------------*/
+/* isn't this name a little vague?  we use a few background colors? */
+/**
+    Font Families
+*/
+/***Fonts and Font Weights****/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body:before {
+  content: '';
+  display: inline-block;
+  background-image: deprecated-webkit-gradient(linear, left top, left bottom, transparent 0, #eeeeee 0, #eeeeee 6.38298%, transparent 6.38298%, transparent 8.51064%, #eeeeee 8.51064%, #eeeeee 14.89362%, transparent 14.89362%, transparent 17.02128%, #eeeeee 17.02128%, #eeeeee 23.40426%, transparent 23.40426%, transparent 25.53191%, #eeeeee 25.53191%, #eeeeee 31.91489%, transparent 31.91489%, transparent 34.04255%, #eeeeee 34.04255%, #eeeeee 40.42553%, transparent 40.42553%, transparent 42.55319%, #eeeeee 42.55319%, #eeeeee 48.93617%, transparent 48.93617%, transparent 51.06383%, #eeeeee 51.06383%, #eeeeee 57.44681%, transparent 57.44681%, transparent 59.57447%, #eeeeee 59.57447%, #eeeeee 65.95745%, transparent 65.95745%, transparent 68.08511%, #eeeeee 68.08511%, #eeeeee 74.46809%, transparent 74.46809%, transparent 76.59574%, #eeeeee 76.59574%, #eeeeee 82.97872%, transparent 82.97872%, transparent 85.10638%, #eeeeee 85.10638%, #eeeeee 91.48936%, transparent 91.48936%, transparent 93.61702%, #eeeeee 93.61702%, #eeeeee 100.0%, transparent 100.0%);
+  background-image: -webkit-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.38298%, transparent 6.38298%, transparent 8.51064%, #eeeeee 8.51064%, #eeeeee 14.89362%, transparent 14.89362%, transparent 17.02128%, #eeeeee 17.02128%, #eeeeee 23.40426%, transparent 23.40426%, transparent 25.53191%, #eeeeee 25.53191%, #eeeeee 31.91489%, transparent 31.91489%, transparent 34.04255%, #eeeeee 34.04255%, #eeeeee 40.42553%, transparent 40.42553%, transparent 42.55319%, #eeeeee 42.55319%, #eeeeee 48.93617%, transparent 48.93617%, transparent 51.06383%, #eeeeee 51.06383%, #eeeeee 57.44681%, transparent 57.44681%, transparent 59.57447%, #eeeeee 59.57447%, #eeeeee 65.95745%, transparent 65.95745%, transparent 68.08511%, #eeeeee 68.08511%, #eeeeee 74.46809%, transparent 74.46809%, transparent 76.59574%, #eeeeee 76.59574%, #eeeeee 82.97872%, transparent 82.97872%, transparent 85.10638%, #eeeeee 85.10638%, #eeeeee 91.48936%, transparent 91.48936%, transparent 93.61702%, #eeeeee 93.61702%, #eeeeee 100.0%, transparent 100.0%);
+  background-image: -moz-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.38298%, transparent 6.38298%, transparent 8.51064%, #eeeeee 8.51064%, #eeeeee 14.89362%, transparent 14.89362%, transparent 17.02128%, #eeeeee 17.02128%, #eeeeee 23.40426%, transparent 23.40426%, transparent 25.53191%, #eeeeee 25.53191%, #eeeeee 31.91489%, transparent 31.91489%, transparent 34.04255%, #eeeeee 34.04255%, #eeeeee 40.42553%, transparent 40.42553%, transparent 42.55319%, #eeeeee 42.55319%, #eeeeee 48.93617%, transparent 48.93617%, transparent 51.06383%, #eeeeee 51.06383%, #eeeeee 57.44681%, transparent 57.44681%, transparent 59.57447%, #eeeeee 59.57447%, #eeeeee 65.95745%, transparent 65.95745%, transparent 68.08511%, #eeeeee 68.08511%, #eeeeee 74.46809%, transparent 74.46809%, transparent 76.59574%, #eeeeee 76.59574%, #eeeeee 82.97872%, transparent 82.97872%, transparent 85.10638%, #eeeeee 85.10638%, #eeeeee 91.48936%, transparent 91.48936%, transparent 93.61702%, #eeeeee 93.61702%, #eeeeee 100.0%, transparent 100.0%);
+  background-image: -ms-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.38298%, transparent 6.38298%, transparent 8.51064%, #eeeeee 8.51064%, #eeeeee 14.89362%, transparent 14.89362%, transparent 17.02128%, #eeeeee 17.02128%, #eeeeee 23.40426%, transparent 23.40426%, transparent 25.53191%, #eeeeee 25.53191%, #eeeeee 31.91489%, transparent 31.91489%, transparent 34.04255%, #eeeeee 34.04255%, #eeeeee 40.42553%, transparent 40.42553%, transparent 42.55319%, #eeeeee 42.55319%, #eeeeee 48.93617%, transparent 48.93617%, transparent 51.06383%, #eeeeee 51.06383%, #eeeeee 57.44681%, transparent 57.44681%, transparent 59.57447%, #eeeeee 59.57447%, #eeeeee 65.95745%, transparent 65.95745%, transparent 68.08511%, #eeeeee 68.08511%, #eeeeee 74.46809%, transparent 74.46809%, transparent 76.59574%, #eeeeee 76.59574%, #eeeeee 82.97872%, transparent 82.97872%, transparent 85.10638%, #eeeeee 85.10638%, #eeeeee 91.48936%, transparent 91.48936%, transparent 93.61702%, #eeeeee 93.61702%, #eeeeee 100.0%, transparent 100.0%);
+  background-image: -o-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.38298%, transparent 6.38298%, transparent 8.51064%, #eeeeee 8.51064%, #eeeeee 14.89362%, transparent 14.89362%, transparent 17.02128%, #eeeeee 17.02128%, #eeeeee 23.40426%, transparent 23.40426%, transparent 25.53191%, #eeeeee 25.53191%, #eeeeee 31.91489%, transparent 31.91489%, transparent 34.04255%, #eeeeee 34.04255%, #eeeeee 40.42553%, transparent 40.42553%, transparent 42.55319%, #eeeeee 42.55319%, #eeeeee 48.93617%, transparent 48.93617%, transparent 51.06383%, #eeeeee 51.06383%, #eeeeee 57.44681%, transparent 57.44681%, transparent 59.57447%, #eeeeee 59.57447%, #eeeeee 65.95745%, transparent 65.95745%, transparent 68.08511%, #eeeeee 68.08511%, #eeeeee 74.46809%, transparent 74.46809%, transparent 76.59574%, #eeeeee 76.59574%, #eeeeee 82.97872%, transparent 82.97872%, transparent 85.10638%, #eeeeee 85.10638%, #eeeeee 91.48936%, transparent 91.48936%, transparent 93.61702%, #eeeeee 93.61702%, #eeeeee 100.0%, transparent 100.0%);
+  background-image: linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.38298%, transparent 6.38298%, transparent 8.51064%, #eeeeee 8.51064%, #eeeeee 14.89362%, transparent 14.89362%, transparent 17.02128%, #eeeeee 17.02128%, #eeeeee 23.40426%, transparent 23.40426%, transparent 25.53191%, #eeeeee 25.53191%, #eeeeee 31.91489%, transparent 31.91489%, transparent 34.04255%, #eeeeee 34.04255%, #eeeeee 40.42553%, transparent 40.42553%, transparent 42.55319%, #eeeeee 42.55319%, #eeeeee 48.93617%, transparent 48.93617%, transparent 51.06383%, #eeeeee 51.06383%, #eeeeee 57.44681%, transparent 57.44681%, transparent 59.57447%, #eeeeee 59.57447%, #eeeeee 65.95745%, transparent 65.95745%, transparent 68.08511%, #eeeeee 68.08511%, #eeeeee 74.46809%, transparent 74.46809%, transparent 76.59574%, #eeeeee 76.59574%, #eeeeee 82.97872%, transparent 82.97872%, transparent 85.10638%, #eeeeee 85.10638%, #eeeeee 91.48936%, transparent 91.48936%, transparent 93.61702%, #eeeeee 93.61702%, #eeeeee 100.0%, transparent 100.0%);
+  height: 100%;
+  left: 0;
+  margin: 0 auto;
+  max-width: 73.125em;
+  opacity: 0.4;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  pointer-events: none;
+  z-index: -1;
+}
+@media screen and (max-width: 1170px) {
+  body:before {
+    background-image: deprecated-webkit-gradient(linear, left top, left bottom, transparent 0, #eeeeee 0, #eeeeee 6.38298%, transparent 6.38298%, transparent 8.51064%, #eeeeee 8.51064%, #eeeeee 14.89362%, transparent 14.89362%, transparent 17.02128%, #eeeeee 17.02128%, #eeeeee 23.40426%, transparent 23.40426%, transparent 25.53191%, #eeeeee 25.53191%, #eeeeee 31.91489%, transparent 31.91489%, transparent 34.04255%, #eeeeee 34.04255%, #eeeeee 40.42553%, transparent 40.42553%, transparent 42.55319%, #eeeeee 42.55319%, #eeeeee 48.93617%, transparent 48.93617%, transparent 51.06383%, #eeeeee 51.06383%, #eeeeee 57.44681%, transparent 57.44681%, transparent 59.57447%, #eeeeee 59.57447%, #eeeeee 65.95745%, transparent 65.95745%, transparent 68.08511%, #eeeeee 68.08511%, #eeeeee 74.46809%, transparent 74.46809%, transparent 76.59574%, #eeeeee 76.59574%, #eeeeee 82.97872%, transparent 82.97872%, transparent 85.10638%, #eeeeee 85.10638%, #eeeeee 91.48936%, transparent 91.48936%, transparent 93.61702%, #eeeeee 93.61702%, #eeeeee 100.0%, transparent 100.0%);
+    background-image: -webkit-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.38298%, transparent 6.38298%, transparent 8.51064%, #eeeeee 8.51064%, #eeeeee 14.89362%, transparent 14.89362%, transparent 17.02128%, #eeeeee 17.02128%, #eeeeee 23.40426%, transparent 23.40426%, transparent 25.53191%, #eeeeee 25.53191%, #eeeeee 31.91489%, transparent 31.91489%, transparent 34.04255%, #eeeeee 34.04255%, #eeeeee 40.42553%, transparent 40.42553%, transparent 42.55319%, #eeeeee 42.55319%, #eeeeee 48.93617%, transparent 48.93617%, transparent 51.06383%, #eeeeee 51.06383%, #eeeeee 57.44681%, transparent 57.44681%, transparent 59.57447%, #eeeeee 59.57447%, #eeeeee 65.95745%, transparent 65.95745%, transparent 68.08511%, #eeeeee 68.08511%, #eeeeee 74.46809%, transparent 74.46809%, transparent 76.59574%, #eeeeee 76.59574%, #eeeeee 82.97872%, transparent 82.97872%, transparent 85.10638%, #eeeeee 85.10638%, #eeeeee 91.48936%, transparent 91.48936%, transparent 93.61702%, #eeeeee 93.61702%, #eeeeee 100.0%, transparent 100.0%);
+    background-image: -moz-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.38298%, transparent 6.38298%, transparent 8.51064%, #eeeeee 8.51064%, #eeeeee 14.89362%, transparent 14.89362%, transparent 17.02128%, #eeeeee 17.02128%, #eeeeee 23.40426%, transparent 23.40426%, transparent 25.53191%, #eeeeee 25.53191%, #eeeeee 31.91489%, transparent 31.91489%, transparent 34.04255%, #eeeeee 34.04255%, #eeeeee 40.42553%, transparent 40.42553%, transparent 42.55319%, #eeeeee 42.55319%, #eeeeee 48.93617%, transparent 48.93617%, transparent 51.06383%, #eeeeee 51.06383%, #eeeeee 57.44681%, transparent 57.44681%, transparent 59.57447%, #eeeeee 59.57447%, #eeeeee 65.95745%, transparent 65.95745%, transparent 68.08511%, #eeeeee 68.08511%, #eeeeee 74.46809%, transparent 74.46809%, transparent 76.59574%, #eeeeee 76.59574%, #eeeeee 82.97872%, transparent 82.97872%, transparent 85.10638%, #eeeeee 85.10638%, #eeeeee 91.48936%, transparent 91.48936%, transparent 93.61702%, #eeeeee 93.61702%, #eeeeee 100.0%, transparent 100.0%);
+    background-image: -ms-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.38298%, transparent 6.38298%, transparent 8.51064%, #eeeeee 8.51064%, #eeeeee 14.89362%, transparent 14.89362%, transparent 17.02128%, #eeeeee 17.02128%, #eeeeee 23.40426%, transparent 23.40426%, transparent 25.53191%, #eeeeee 25.53191%, #eeeeee 31.91489%, transparent 31.91489%, transparent 34.04255%, #eeeeee 34.04255%, #eeeeee 40.42553%, transparent 40.42553%, transparent 42.55319%, #eeeeee 42.55319%, #eeeeee 48.93617%, transparent 48.93617%, transparent 51.06383%, #eeeeee 51.06383%, #eeeeee 57.44681%, transparent 57.44681%, transparent 59.57447%, #eeeeee 59.57447%, #eeeeee 65.95745%, transparent 65.95745%, transparent 68.08511%, #eeeeee 68.08511%, #eeeeee 74.46809%, transparent 74.46809%, transparent 76.59574%, #eeeeee 76.59574%, #eeeeee 82.97872%, transparent 82.97872%, transparent 85.10638%, #eeeeee 85.10638%, #eeeeee 91.48936%, transparent 91.48936%, transparent 93.61702%, #eeeeee 93.61702%, #eeeeee 100.0%, transparent 100.0%);
+    background-image: -o-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.38298%, transparent 6.38298%, transparent 8.51064%, #eeeeee 8.51064%, #eeeeee 14.89362%, transparent 14.89362%, transparent 17.02128%, #eeeeee 17.02128%, #eeeeee 23.40426%, transparent 23.40426%, transparent 25.53191%, #eeeeee 25.53191%, #eeeeee 31.91489%, transparent 31.91489%, transparent 34.04255%, #eeeeee 34.04255%, #eeeeee 40.42553%, transparent 40.42553%, transparent 42.55319%, #eeeeee 42.55319%, #eeeeee 48.93617%, transparent 48.93617%, transparent 51.06383%, #eeeeee 51.06383%, #eeeeee 57.44681%, transparent 57.44681%, transparent 59.57447%, #eeeeee 59.57447%, #eeeeee 65.95745%, transparent 65.95745%, transparent 68.08511%, #eeeeee 68.08511%, #eeeeee 74.46809%, transparent 74.46809%, transparent 76.59574%, #eeeeee 76.59574%, #eeeeee 82.97872%, transparent 82.97872%, transparent 85.10638%, #eeeeee 85.10638%, #eeeeee 91.48936%, transparent 91.48936%, transparent 93.61702%, #eeeeee 93.61702%, #eeeeee 100.0%, transparent 100.0%);
+    background-image: linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.38298%, transparent 6.38298%, transparent 8.51064%, #eeeeee 8.51064%, #eeeeee 14.89362%, transparent 14.89362%, transparent 17.02128%, #eeeeee 17.02128%, #eeeeee 23.40426%, transparent 23.40426%, transparent 25.53191%, #eeeeee 25.53191%, #eeeeee 31.91489%, transparent 31.91489%, transparent 34.04255%, #eeeeee 34.04255%, #eeeeee 40.42553%, transparent 40.42553%, transparent 42.55319%, #eeeeee 42.55319%, #eeeeee 48.93617%, transparent 48.93617%, transparent 51.06383%, #eeeeee 51.06383%, #eeeeee 57.44681%, transparent 57.44681%, transparent 59.57447%, #eeeeee 59.57447%, #eeeeee 65.95745%, transparent 65.95745%, transparent 68.08511%, #eeeeee 68.08511%, #eeeeee 74.46809%, transparent 74.46809%, transparent 76.59574%, #eeeeee 76.59574%, #eeeeee 82.97872%, transparent 82.97872%, transparent 85.10638%, #eeeeee 85.10638%, #eeeeee 91.48936%, transparent 91.48936%, transparent 93.61702%, #eeeeee 93.61702%, #eeeeee 100.0%, transparent 100.0%);
+  }
+}
+@media screen and (max-width: 768px) {
+  body:before {
+    background-image: deprecated-webkit-gradient(linear, left top, left bottom, transparent 0, #eeeeee 0, #eeeeee 9.67742%, transparent 9.67742%, transparent 12.90323%, #eeeeee 12.90323%, #eeeeee 22.58065%, transparent 22.58065%, transparent 25.80645%, #eeeeee 25.80645%, #eeeeee 35.48387%, transparent 35.48387%, transparent 38.70968%, #eeeeee 38.70968%, #eeeeee 48.3871%, transparent 48.3871%, transparent 51.6129%, #eeeeee 51.6129%, #eeeeee 61.29032%, transparent 61.29032%, transparent 64.51613%, #eeeeee 64.51613%, #eeeeee 74.19355%, transparent 74.19355%, transparent 77.41935%, #eeeeee 77.41935%, #eeeeee 87.09677%, transparent 87.09677%, transparent 90.32258%, #eeeeee 90.32258%, #eeeeee 100.0%, transparent 100.0%);
+    background-image: -webkit-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 9.67742%, transparent 9.67742%, transparent 12.90323%, #eeeeee 12.90323%, #eeeeee 22.58065%, transparent 22.58065%, transparent 25.80645%, #eeeeee 25.80645%, #eeeeee 35.48387%, transparent 35.48387%, transparent 38.70968%, #eeeeee 38.70968%, #eeeeee 48.3871%, transparent 48.3871%, transparent 51.6129%, #eeeeee 51.6129%, #eeeeee 61.29032%, transparent 61.29032%, transparent 64.51613%, #eeeeee 64.51613%, #eeeeee 74.19355%, transparent 74.19355%, transparent 77.41935%, #eeeeee 77.41935%, #eeeeee 87.09677%, transparent 87.09677%, transparent 90.32258%, #eeeeee 90.32258%, #eeeeee 100.0%, transparent 100.0%);
+    background-image: -moz-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 9.67742%, transparent 9.67742%, transparent 12.90323%, #eeeeee 12.90323%, #eeeeee 22.58065%, transparent 22.58065%, transparent 25.80645%, #eeeeee 25.80645%, #eeeeee 35.48387%, transparent 35.48387%, transparent 38.70968%, #eeeeee 38.70968%, #eeeeee 48.3871%, transparent 48.3871%, transparent 51.6129%, #eeeeee 51.6129%, #eeeeee 61.29032%, transparent 61.29032%, transparent 64.51613%, #eeeeee 64.51613%, #eeeeee 74.19355%, transparent 74.19355%, transparent 77.41935%, #eeeeee 77.41935%, #eeeeee 87.09677%, transparent 87.09677%, transparent 90.32258%, #eeeeee 90.32258%, #eeeeee 100.0%, transparent 100.0%);
+    background-image: -ms-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 9.67742%, transparent 9.67742%, transparent 12.90323%, #eeeeee 12.90323%, #eeeeee 22.58065%, transparent 22.58065%, transparent 25.80645%, #eeeeee 25.80645%, #eeeeee 35.48387%, transparent 35.48387%, transparent 38.70968%, #eeeeee 38.70968%, #eeeeee 48.3871%, transparent 48.3871%, transparent 51.6129%, #eeeeee 51.6129%, #eeeeee 61.29032%, transparent 61.29032%, transparent 64.51613%, #eeeeee 64.51613%, #eeeeee 74.19355%, transparent 74.19355%, transparent 77.41935%, #eeeeee 77.41935%, #eeeeee 87.09677%, transparent 87.09677%, transparent 90.32258%, #eeeeee 90.32258%, #eeeeee 100.0%, transparent 100.0%);
+    background-image: -o-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 9.67742%, transparent 9.67742%, transparent 12.90323%, #eeeeee 12.90323%, #eeeeee 22.58065%, transparent 22.58065%, transparent 25.80645%, #eeeeee 25.80645%, #eeeeee 35.48387%, transparent 35.48387%, transparent 38.70968%, #eeeeee 38.70968%, #eeeeee 48.3871%, transparent 48.3871%, transparent 51.6129%, #eeeeee 51.6129%, #eeeeee 61.29032%, transparent 61.29032%, transparent 64.51613%, #eeeeee 64.51613%, #eeeeee 74.19355%, transparent 74.19355%, transparent 77.41935%, #eeeeee 77.41935%, #eeeeee 87.09677%, transparent 87.09677%, transparent 90.32258%, #eeeeee 90.32258%, #eeeeee 100.0%, transparent 100.0%);
+    background-image: linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 9.67742%, transparent 9.67742%, transparent 12.90323%, #eeeeee 12.90323%, #eeeeee 22.58065%, transparent 22.58065%, transparent 25.80645%, #eeeeee 25.80645%, #eeeeee 35.48387%, transparent 35.48387%, transparent 38.70968%, #eeeeee 38.70968%, #eeeeee 48.3871%, transparent 48.3871%, transparent 51.6129%, #eeeeee 51.6129%, #eeeeee 61.29032%, transparent 61.29032%, transparent 64.51613%, #eeeeee 64.51613%, #eeeeee 74.19355%, transparent 74.19355%, transparent 77.41935%, #eeeeee 77.41935%, #eeeeee 87.09677%, transparent 87.09677%, transparent 90.32258%, #eeeeee 90.32258%, #eeeeee 100.0%, transparent 100.0%);
+  }
+}
+@media screen and (max-width: 480px) {
+  body:before {
+    background-image: deprecated-webkit-gradient(linear, left top, left bottom, transparent 0, #eeeeee 0, #eeeeee 20%, transparent 20%, transparent 26.66667%, #eeeeee 26.66667%, #eeeeee 46.66667%, transparent 46.66667%, transparent 53.33333%, #eeeeee 53.33333%, #eeeeee 73.33333%, transparent 73.33333%, transparent 80%, #eeeeee 80%, #eeeeee 100%, transparent 100%);
+    background-image: -webkit-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 20%, transparent 20%, transparent 26.66667%, #eeeeee 26.66667%, #eeeeee 46.66667%, transparent 46.66667%, transparent 53.33333%, #eeeeee 53.33333%, #eeeeee 73.33333%, transparent 73.33333%, transparent 80%, #eeeeee 80%, #eeeeee 100%, transparent 100%);
+    background-image: -moz-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 20%, transparent 20%, transparent 26.66667%, #eeeeee 26.66667%, #eeeeee 46.66667%, transparent 46.66667%, transparent 53.33333%, #eeeeee 53.33333%, #eeeeee 73.33333%, transparent 73.33333%, transparent 80%, #eeeeee 80%, #eeeeee 100%, transparent 100%);
+    background-image: -ms-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 20%, transparent 20%, transparent 26.66667%, #eeeeee 26.66667%, #eeeeee 46.66667%, transparent 46.66667%, transparent 53.33333%, #eeeeee 53.33333%, #eeeeee 73.33333%, transparent 73.33333%, transparent 80%, #eeeeee 80%, #eeeeee 100%, transparent 100%);
+    background-image: -o-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 20%, transparent 20%, transparent 26.66667%, #eeeeee 26.66667%, #eeeeee 46.66667%, transparent 46.66667%, transparent 53.33333%, #eeeeee 53.33333%, #eeeeee 73.33333%, transparent 73.33333%, transparent 80%, #eeeeee 80%, #eeeeee 100%, transparent 100%);
+    background-image: linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 20%, transparent 20%, transparent 26.66667%, #eeeeee 26.66667%, #eeeeee 46.66667%, transparent 46.66667%, transparent 53.33333%, #eeeeee 53.33333%, #eeeeee 73.33333%, transparent 73.33333%, transparent 80%, #eeeeee 80%, #eeeeee 100%, transparent 100%);
+  }
+}
+
+/** ---------------------------------------------------------
+      Helper Classses
+    ---------------------------------------------------------*/
+.orange {
+  color: #f7941e !important;
+}
+
+.span2 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 14.89362%;
+}
+.span2:last-child {
+  margin-right: 0;
+}
+
+.span3 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 23.40426%;
+}
+.span3:last-child {
+  margin-right: 0;
+}
+
+.span4 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 31.91489%;
+}
+.span4:last-child {
+  margin-right: 0;
+}
+
+.span5 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 40.42553%;
+}
+.span5:last-child {
+  margin-right: 0;
+}
+
+.span6 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 48.93617%;
+}
+.span6:last-child {
+  margin-right: 0;
+}
+
+.span7 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 57.44681%;
+}
+.span7:last-child {
+  margin-right: 0;
+}
+
+.span8 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 65.95745%;
+}
+.span8:last-child {
+  margin-right: 0;
+}
+
+.span9 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 74.46809%;
+}
+.span9:last-child {
+  margin-right: 0;
+}
+
+.span10 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 82.97872%;
+}
+.span10:last-child {
+  margin-right: 0;
+}
+
+.span11 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 91.48936%;
+}
+.span11:last-child {
+  margin-right: 0;
+}
+
+.span12 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 100%;
+}
+.span12:last-child {
+  margin-right: 0;
+}
+
+.last {
+  margin-right: 0 !important;
+}
+
+.block {
+  display: block !important;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+.left {
+  float: left !important;
+}
+
+.right {
+  float: right !important;
+}
+
+.alignleft {
+  text-align: left;
+}
+
+.alignright {
+  text-align: right;
+}
+
+.first {
+  margin-top: 0px !important;
+}
+
+.col1 {
+  width: 8.33%;
+}
+
+.col2 {
+  width: 16.67%;
+}
+
+.col3 {
+  width: 25%;
+}
+
+.col4 {
+  width: 33%;
+}
+
+.col5 {
+  width: 41.67%;
+}
+
+.col6 {
+  width: 50%;
+}
+
+.col7 {
+  width: 58.33%;
+}
+
+.col8 {
+  width: 67%;
+}
+
+.col9 {
+  width: 75%;
+}
+
+.col10 {
+  width: 83.33%;
+}
+
+.col11 {
+  width: 91.6%;
+}
+
+.col12 {
+  width: 100%;
+}
+
+.pad0 {
+  padding: 0 !important;
+}
+
+.padB0 {
+  padding-bottom: 0px !important;
+}
+
+.padBhalf {
+  padding-bottom: 0.5em !important;
+}
+
+.padB1 {
+  padding-bottom: 1em !important;
+}
+
+.padB2 {
+  padding-bottom: 2em !important;
+}
+
+.padB3 {
+  padding-bottom: 3em !important;
+}
+
+.padB4 {
+  padding-bottom: 4em !important;
+}
+
+.padT0 {
+  padding-top: 0px !important;
+}
+
+.padT1 {
+  padding-top: 1em !important;
+}
+
+.padT2 {
+  padding-top: 2em !important;
+}
+
+.padT3 {
+  padding-top: 3em !important;
+}
+
+.padT4 {
+  padding-top: 4em !important;
+}
+
+.mar0 {
+  margin: 0 !important;
+}
+
+.marB0 {
+  margin-bottom: 0px !important;
+}
+
+.marBhalf {
+  margin-bottom: 0.5em !important;
+}
+
+.marB1 {
+  margin-bottom: 1em !important;
+}
+
+.marB2 {
+  margin-bottom: 2em !important;
+}
+
+.marB3 {
+  margin-bottom: 3em !important;
+}
+
+.marB4 {
+  margin-bottom: 4em !important;
+}
+
+.marT0 {
+  margin-top: 0px !important;
+}
+
+.marT1 {
+  margin-top: 1em !important;
+}
+
+.marT2 {
+  margin-top: 2em !important;
+}
+
+.marT3 {
+  margin-top: 3em !important;
+}
+
+.marT4 {
+  margin-top: 4em !important;
+}
+
+.marL1 {
+  margin-left: 1em !important;
+}
+
+.marL2 {
+  margin-left: 2em !important;
+}
+
+.u {
+  text-decoration: underline !important;
+}
+
+.lt-gray-border {
+  border: 1px solid #dedede;
+}
+
+/** --------------------------------------------------------
+    Kareo Specific Buttons
+    -------------------------------------------------------- */
+/* Let's try a generic button.  Colors and size defined byadditional classes */
+/***Large Buttons ***/
+/*********************/
+/***Medium Buttons***/
+/*******************/
+/*******************/
+/***Small Buttons***/
+/*******************/
+/*** Play Buttons
+todo: include video play button here ***/
+section.ehr-hero {
+  background-color: #ec0089;
+  height: 800px;
+  height: 75vh;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
+@media screen and (min-width: 1077px) {
+  section.ehr-hero {
+    height: 800px;
+  }
+}
+section.ehr-hero .lockup-cont {
+  max-width: 73.125em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  position: relative;
+  z-index: 100;
+  left: 0;
+}
+section.ehr-hero .lockup-cont:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 1170px) {
+  section.ehr-hero .lockup-cont {
+    padding: 0 25px;
+  }
+}
+section.ehr-hero .lockup-cont h1, section.ehr-hero .lockup-cont h3 {
+  color: #3c4345;
+}
+section.ehr-hero .lockup-cont p.indicant {
+  color: #f7941e;
+  letter-spacing: 0.07em;
+  font-size: 1.1875em;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-hero .lockup-cont p, section.ehr-hero .lockup-cont div.sub-txt {
+    text-align: center;
+  }
+}
+section.ehr-hero .btn-cont a {
+  margin: 0 10px;
+}
+section.ehr-hero .btn-cont .btn-lg-orng {
+  margin: 0 10px 0 0;
+}
+section.ehr-hero .btn-cont .btn-lg-clear {
+  padding: 14px 45px;
+  border-color: #3c4345;
+  color: #3c4345;
+}
+section.ehr-hero .btn-cont .btn-lg-clear:hover {
+  color: white;
+  background-color: #3c4345;
+}
+
+section.ehr-facts .fact-cont {
+  max-width: 73.125em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 45px 0 35px;
+}
+section.ehr-facts .fact-cont:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-facts .fact-cont {
+    padding: 30px 0 30px;
+    max-width: 425px;
+  }
+}
+section.ehr-facts .fact-cont i {
+  color: #5cb0cd;
+  font-size: 72px;
+}
+section.ehr-facts .fact-cont h2 {
+  margin-top: 15px;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-facts .fact-cont h2 {
+    line-height: 19px;
+  }
+}
+section.ehr-facts .fact-cont .subpoint-lg-cont-1,
+section.ehr-facts .fact-cont .subpoint-lg-cont-2,
+section.ehr-facts .fact-cont .subpoint-lg-cont-3 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 31.91489%;
+  text-align: center;
+  padding: 0 52px;
+}
+section.ehr-facts .fact-cont .subpoint-lg-cont-1:last-child,
+section.ehr-facts .fact-cont .subpoint-lg-cont-2:last-child,
+section.ehr-facts .fact-cont .subpoint-lg-cont-3:last-child {
+  margin-right: 0;
+}
+section.ehr-facts .fact-cont .subpoint-lg-cont-1 p.subpoint-lg,
+section.ehr-facts .fact-cont .subpoint-lg-cont-2 p.subpoint-lg,
+section.ehr-facts .fact-cont .subpoint-lg-cont-3 p.subpoint-lg {
+  color: #1b1d1e;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-facts .fact-cont .subpoint-lg-cont-1,
+  section.ehr-facts .fact-cont .subpoint-lg-cont-2,
+  section.ehr-facts .fact-cont .subpoint-lg-cont-3 {
+    float: left;
+    display: block;
+    margin-right: 2.12766%;
+    width: 100%;
+    margin: 10px 0;
+    padding: 0;
+  }
+  section.ehr-facts .fact-cont .subpoint-lg-cont-1:last-child,
+  section.ehr-facts .fact-cont .subpoint-lg-cont-2:last-child,
+  section.ehr-facts .fact-cont .subpoint-lg-cont-3:last-child {
+    margin-right: 0;
+  }
+}
+
+section.ehr-video {
+  position: relative;
+  background-size: cover;
+  height: 450px;
+}
+section.ehr-video .video-cont {
+  max-width: 73.125em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+section.ehr-video .video-cont:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+section.ehr-video .video-cont h1 {
+  color: white;
+}
+section.ehr-video .video-cont .vid-cntr {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+section.ehr-video .video-cont .vid-cntr i.icon-play {
+  color: white;
+  font-size: 25px;
+  border: 2px solid white;
+  border-radius: 50px;
+  padding: 25px 22px 22px 27px;
+  margin: 0 auto 0;
+  display: table;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+section.ehr-video .video-cont .vid-cntr i.icon-play:hover {
+  background: #fff;
+  color: #5cb0cd;
+}
+
+body {
+  background-color: white;
+}
+
+#node-11 {
+  overflow: hidden;
+}
+
+section.ehr-hero {
+  background: url("../../images/optimized/ehr-hero-lg.jpg") no-repeat center center;
+}
+section.ehr-hero .hero-gradient {
+  background-color: #e8eff5;
+  background-image: -webkit-linear-gradient(left, #e8eff5 0%, #d0dded 100%);
+  background-image: linear-gradient(to right, #e8eff5 0%, #d0dded 100%);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+@media screen and (max-width: 1077px) {
+  section.ehr-hero {
+    height: 540px;
+  }
+}
+@media screen and (max-width: 768px) {
+  section.ehr-hero {
+    height: 480px;
+    background: url("../../images/optimized/ehr-hero-sm.jpg") no-repeat center center;
+    background-size: cover;
+  }
+}
+section.ehr-hero .lockup-cont {
+  top: 50%;
+  -webkit-transform: translateY(-54%);
+  -moz-transform: translateY(-54%);
+  -ms-transform: translateY(-54%);
+  -o-transform: translateY(-54%);
+  transform: translateY(-54%);
+}
+@media screen and (max-width: 1077px) {
+  section.ehr-hero .lockup-cont {
+    -webkit-transform: translateY(-51%);
+    -moz-transform: translateY(-51%);
+    -ms-transform: translateY(-51%);
+    -o-transform: translateY(-51%);
+    transform: translateY(-51%);
+  }
+}
+@media screen and (max-width: 768px) {
+  section.ehr-hero .lockup-cont {
+    left: 50%;
+    padding: 0;
+    text-align: center;
+    width: 600px;
+    max-width: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  section.ehr-hero .lockup-cont {
+    text-align: center;
+    padding: 50px 0 70px;
+    width: 425px;
+    max-width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+section.ehr-hero .lockup-cont h1, section.ehr-hero .lockup-cont h3 {
+  max-width: 460px;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-hero .lockup-cont h1, section.ehr-hero .lockup-cont h3 {
+    color: white;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 320px;
+  }
+}
+section.ehr-hero .lockup-cont h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  max-width: 495px;
+  padding: 0;
+  font-size: 3.3em;
+}
+@media screen and (max-width: 1199px) {
+  section.ehr-hero .lockup-cont h1 {
+    font-size: 3.125em;
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  section.ehr-hero .lockup-cont h1 {
+    padding: 0 20px;
+    max-width: 320px;
+    font-size: 2em;
+    line-height: 34px;
+  }
+}
+section.ehr-hero .btn-cont {
+  margin-top: 65px;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-hero .btn-cont {
+    width: 277px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+  }
+  section.ehr-hero .btn-cont .btn-lg-clear {
+    float: left;
+    padding: 8px 20px;
+    margin: 0 5px;
+    margin-right: 0;
+    color: white;
+    border-color: white;
+  }
+  section.ehr-hero .btn-cont .btn-lg-clear:hover {
+    background-color: white;
+    color: #3c4345;
+  }
+  section.ehr-hero .btn-cont .btn-lg-orng {
+    display: block;
+    float: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    margin-left: 0;
+  }
+}
+
+section.ehr-video {
+  height: 600px;
+  background: url("../../images/optimized/ehr/ehr-vid-bg.png") repeat-x center center;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-video {
+    padding: 0;
+    height: 280px;
+  }
+}
+section.ehr-video .video-cont h1 {
+  margin-top: 55px;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-video .video-cont h1 {
+    font-size: 1.875em;
+    line-height: 30px;
+  }
+}
+section.ehr-video .video-cont .vid-cntr {
+  top: 58%;
+  left: 50%;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-video .video-cont .vid-cntr {
+    width: 100%;
+  }
+  section.ehr-video .video-cont .vid-cntr i.icon-play {
+    font-size: 20px;
+  }
+  section.ehr-video .video-cont .vid-cntr h1 {
+    font-size: 22px;
+    line-height: 24px;
+  }
+  section.ehr-video .video-cont .vid-cntr .standalone br {
+    display: none;
+  }
+}
+
+section.ehr-design {
+  overflow: hidden;
+  margin-bottom: -200px;
+  border-top: 1px solid #ebf1f3;
+}
+@media screen and (max-width: 1280px) {
+  section.ehr-design {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  section.ehr-design {
+    margin-bottom: 0;
+    max-width: 425px;
+    margin: 0 auto;
+  }
+  section.ehr-design video {
+    display: none;
+  }
+}
+section.ehr-design .alt-cont {
+  max-width: 970px;
+  padding: 48px 0 180px 0;
+}
+section.ehr-design .alt-cont i.icon-checkbox {
+  color: #ec008a;
+  font-size: 75px;
+  margin-bottom: 31px;
+  display: block;
+}
+section.ehr-design .alt-cont h2 {
+  letter-spacing: 1px;
+  margin-top: 12px;
+}
+section.ehr-design .alt-cont p.alt {
+  max-width: 940px;
+  margin: 0 auto;
+}
+section.ehr-design .ehr-painless {
+  padding: 100px 25px 0;
+  display: block;
+  max-width: 73.125em;
+  margin-left: auto;
+  margin-right: auto;
+  height: 700px;
+}
+section.ehr-design .ehr-painless:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+section.ehr-design .ehr-painless:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 1024px) {
+  section.ehr-design .ehr-painless {
+    height: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  section.ehr-design .ehr-painless {
+    max-width: 425px;
+    margin: 0 auto;
+  }
+}
+section.ehr-design .ehr-painless .txt-cont {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 48.93617%;
+  position: relative;
+  z-index: 100;
+  padding-left: 25px;
+}
+section.ehr-design .ehr-painless .txt-cont:last-child {
+  margin-right: 0;
+}
+section.ehr-design .ehr-painless .txt-cont p {
+  padding-right: 100px;
+  margin-bottom: 50px;
+  color: #1b1d1e;
+}
+section.ehr-design .ehr-painless .txt-cont a.btn-play {
+  margin-left: -6px;
+}
+section.ehr-design .ehr-painless .img-cont-col {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 48.93617%;
+  position: relative;
+}
+section.ehr-design .ehr-painless .img-cont-col:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 1023px) {
+  section.ehr-design .ehr-painless .img-cont-col {
+    float: left;
+    display: block;
+    margin-right: 2.12766%;
+    width: 100%;
+  }
+  section.ehr-design .ehr-painless .img-cont-col:last-child {
+    margin-right: 0;
+  }
+}
+section.ehr-design .ehr-painless .img-cont {
+  position: absolute;
+  width: 1011px;
+  height: 535px;
+  top: -140px;
+  left: -270px;
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  section.ehr-design .ehr-painless .img-cont {
+    position: relative !important;
+    float: none !important;
+    width: 769px !important;
+    left: 50% !important;
+    top: -10px !important;
+    margin-left: -384px !important;
+  }
+}
+section.ehr-design .ehr-painless .img-cont img {
+  width: 100%;
+  height: 90%;
+}
+section.ehr-design .ehr-painless .img-cont video {
+  position: absolute;
+  left: 221px;
+  top: 29px;
+  width: 623px;
+}
+@media screen and (max-width: 1280px) {
+  section.ehr-design .ehr-painless .img-cont video {
+    left: 184px;
+    top: 27px;
+    width: 515px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  section.ehr-design .ehr-painless .img-cont video {
+    left: 167px;
+    top: 24px;
+    width: 473px;
+  }
+}
+@media screen and (max-width: 768px) {
+  section.ehr-design .ehr-painless .img-cont video {
+    left: 70px;
+    top: 10px;
+    width: 197px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  section.ehr-design .ehr-painless .img-cont {
+    top: -80px;
+    left: -210px;
+    width: 840px;
+    height: 445px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  section.ehr-design .ehr-painless .img-cont {
+    position: static;
+    height: auto;
+  }
+  section.ehr-design .ehr-painless .img-cont i.icon-play {
+    display: block;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    width: 64px;
+    height: 64px;
+    margin-left: -20px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 20px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  section.ehr-design .ehr-painless .img-cont i.icon-play:hover {
+    background: #fff;
+    color: #ec0089;
+  }
+}
+@media screen and (max-width: 768px) {
+  section.ehr-design .ehr-painless .img-cont {
+    position: relative !important;
+    float: none !important;
+    width: 320px !important;
+    margin: 0 auto !important;
+    left: initial !important;
+    top: initial !important;
+  }
+}
+@media screen and (max-width: 1023px) {
+  section.ehr-design .ehr-painless {
+    padding: 0;
+  }
+  section.ehr-design .ehr-painless .txt-cont {
+    float: left;
+    display: block;
+    margin-right: 2.12766%;
+    width: 100%;
+    padding: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  section.ehr-design .ehr-painless .txt-cont:last-child {
+    margin-right: 0;
+  }
+  section.ehr-design .ehr-painless .txt-cont h2 {
+    font-size: 1.375em;
+    line-height: 1.375em;
+  }
+  section.ehr-design .ehr-painless .txt-cont p {
+    font-size: 1em;
+    padding: 0;
+  }
+  section.ehr-design .ehr-painless .txt-cont .btn-play {
+    display: none;
+  }
+  section.ehr-design .ehr-painless .img-cont {
+    float: left;
+    display: block;
+    margin-right: 2.12766%;
+    width: 100%;
+    margin-left: 0%;
+    bottom: inherit;
+    margin-bottom: 30px;
+  }
+  section.ehr-design .ehr-painless .img-cont:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  section.ehr-design {
+    padding: 0;
+  }
+  section.ehr-design h2.alt {
+    line-height: 20px;
+    max-width: 210px;
+    margin: 0 auto 20px auto;
+  }
+  section.ehr-design p.alt {
+    font-size: 1em;
+    line-height: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  section.ehr-design .alt-cont {
+    padding: 50px 0 70px 0;
+  }
+}
+
+section.ehr-intuitive {
+  padding: 80px 0 70px 0;
+  background-color: #ebf1f3;
+  height: 680px;
+  overflow: hidden;
+}
+@media screen and (max-width: 1023px) {
+  section.ehr-intuitive {
+    overflow: hidden;
+    padding: 50px 0;
+    padding-top: 0;
+    height: auto;
+  }
+}
+section.ehr-intuitive .inner-cont {
+  max-width: 73.125em;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+section.ehr-intuitive .inner-cont:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-intuitive .inner-cont {
+    max-width: 425px;
+    margin: 0 auto;
+  }
+}
+section.ehr-intuitive .inner-cont .img-cont-col {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 48.93617%;
+  position: relative;
+}
+section.ehr-intuitive .inner-cont .img-cont-col:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 1023px) {
+  section.ehr-intuitive .inner-cont .img-cont-col {
+    display: none;
+  }
+}
+section.ehr-intuitive .inner-cont .img-cont {
+  position: absolute;
+  width: 1167px;
+  height: 607px;
+  top: 0;
+  left: -290px;
+}
+@media screen and (max-width: 1280px) {
+  section.ehr-intuitive .inner-cont .img-cont {
+    width: 1000px;
+    height: 520px;
+    left: -240px;
+    top: 30px;
+  }
+}
+section.ehr-intuitive .inner-cont .img-cont img {
+  width: 100%;
+}
+section.ehr-intuitive .inner-cont .img-cont video {
+  position: absolute;
+  width: 567px;
+  top: 50px;
+  left: 307px;
+}
+@media screen and (max-width: 1280px) {
+  section.ehr-intuitive .inner-cont .img-cont video {
+    width: 488px;
+    top: 44px;
+    left: 263px;
+  }
+}
+section.ehr-intuitive .inner-cont .img-cont-mob {
+  display: none;
+}
+@media screen and (max-width: 1023px) {
+  section.ehr-intuitive .inner-cont .img-cont-mob {
+    display: block;
+    position: relative;
+    width: 768px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  section.ehr-intuitive .inner-cont .img-cont-mob {
+    width: 320px;
+  }
+}
+section.ehr-intuitive .inner-cont .img-cont-mob #ehrvid2-mob {
+  position: absolute;
+  left: 148px;
+  top: 227px;
+  width: 484px;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-intuitive .inner-cont .img-cont-mob #ehrvid2-mob {
+    left: 61px;
+    top: 264px;
+    width: 203px;
+  }
+}
+section.ehr-intuitive .inner-cont .txt-cont {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 48.93617%;
+  margin-left: 59.57447%;
+  max-width: 400px;
+  position: absolute;
+  margin-top: 10%;
+  z-index: 100;
+}
+section.ehr-intuitive .inner-cont .txt-cont:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 1280px) {
+  section.ehr-intuitive .inner-cont .txt-cont {
+    margin-top: 120px;
+    max-width: auto;
+  }
+}
+@media screen and (max-width: 1023px) {
+  section.ehr-intuitive .inner-cont .txt-cont {
+    margin-top: 40px;
+  }
+}
+section.ehr-intuitive .inner-cont .txt-cont a.btn-play {
+  margin-left: -6px;
+}
+section.ehr-intuitive .inner-cont .txt-cont h2 {
+  width: 512px;
+}
+@media screen and (max-width: 1280px) {
+  section.ehr-intuitive .inner-cont .txt-cont h2 {
+    width: auto;
+  }
+}
+section.ehr-intuitive .inner-cont .txt-cont p {
+  margin-bottom: 50px;
+  color: #1b1d1e;
+}
+section.ehr-intuitive .inner-cont .mob-ipad {
+  display: none;
+}
+@media screen and (max-width: 1023px) {
+  section.ehr-intuitive .inner-cont {
+    padding: 0;
+  }
+  section.ehr-intuitive .inner-cont .txt-cont {
+    position: static;
+    float: left;
+    display: block;
+    margin-right: 2.12766%;
+    width: 100%;
+    margin-left: 0%;
+    padding: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 100%;
+  }
+  section.ehr-intuitive .inner-cont .txt-cont:last-child {
+    margin-right: 0;
+  }
+  section.ehr-intuitive .inner-cont .txt-cont h2 {
+    font-size: 1.375em;
+    line-height: 1.375em;
+    margin-bottom: 20px;
+  }
+  section.ehr-intuitive .inner-cont .txt-cont p {
+    font-size: 1em;
+    padding: 0;
+  }
+  section.ehr-intuitive .inner-cont .txt-cont .btn-play {
+    display: none;
+  }
+  section.ehr-intuitive .inner-cont .img-cont {
+    float: left;
+    display: block;
+    margin-right: 2.12766%;
+    width: 100%;
+  }
+  section.ehr-intuitive .inner-cont .img-cont:last-child {
+    margin-right: 0;
+  }
+  section.ehr-intuitive .inner-cont .img-cont img {
+    display: none;
+  }
+  section.ehr-intuitive .inner-cont video {
+    display: none;
+  }
+  section.ehr-intuitive .inner-cont .mob-ipad {
+    display: block;
+    position: relative;
+    max-width: 130%;
+    left: -15%;
+  }
+  section.ehr-intuitive .inner-cont i.icon-play {
+    display: block;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    width: 64px;
+    height: 64px;
+    margin-left: -32px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 20px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    z-index: 100;
+  }
+  section.ehr-intuitive .inner-cont i.icon-play:hover {
+    background: #fff;
+    color: #ec0089;
+  }
+}
+
+section.ehr-access {
+  max-width: 73.125em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 190px 0 310px 0;
+  overflow-x: hidden;
+}
+section.ehr-access:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-access {
+    max-width: 425px;
+    margin: 0 auto;
+  }
+}
+section.ehr-access .txt-cont {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 48.93617%;
+  padding-left: 100px;
+  position: relative;
+  z-index: 100;
+}
+section.ehr-access .txt-cont:last-child {
+  margin-right: 0;
+}
+section.ehr-access .txt-cont p {
+  padding-right: 100px;
+  margin-bottom: 50px;
+  color: #1b1d1e;
+}
+section.ehr-access .txt-cont a.btn-play {
+  margin-left: -6px;
+}
+section.ehr-access .img-cont-col {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 48.93617%;
+  position: relative;
+}
+section.ehr-access .img-cont-col:last-child {
+  margin-right: 0;
+}
+section.ehr-access .img-cont {
+  position: absolute;
+  left: -100px;
+  top: -100px;
+  width: 680px;
+  height: 573px;
+}
+section.ehr-access .img-cont img {
+  width: 100%;
+}
+section.ehr-access .img-cont video {
+  position: absolute;
+  width: 188px;
+  height: 367px;
+  right: 186px;
+  top: 88px;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-access {
+    padding: 50px 0 50px 0;
+  }
+  section.ehr-access .txt-cont {
+    float: left;
+    display: block;
+    margin-right: 2.12766%;
+    width: 100%;
+    margin-left: 0%;
+    padding: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  section.ehr-access .txt-cont:last-child {
+    margin-right: 0;
+  }
+  section.ehr-access .txt-cont h2 {
+    font-size: 1.375em;
+  }
+  section.ehr-access .txt-cont p {
+    font-size: 1em;
+    padding: 0;
+  }
+  section.ehr-access .txt-cont .btn-play {
+    display: none;
+  }
+  section.ehr-access .img-cont-col {
+    float: left;
+    display: block;
+    margin-right: 2.12766%;
+    width: 100%;
+  }
+  section.ehr-access .img-cont-col:last-child {
+    margin-right: 0;
+  }
+  section.ehr-access .img-cont {
+    position: relative;
+    width: 320px;
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+    height: auto;
+  }
+  section.ehr-access .img-cont img {
+    display: block;
+    width: 320px;
+    position: static;
+    top: inherit;
+    left: inherit;
+    transform: none;
+    margin: 0 auto;
+  }
+  section.ehr-access .img-cont video {
+    display: none;
+  }
+  section.ehr-access .img-cont video {
+    left: 145px;
+    top: 50px;
+    width: 87px;
+    height: auto;
+  }
+  section.ehr-access i.icon-play {
+    display: block;
+    position: absolute;
+    top: 36%;
+    left: 56%;
+    width: 64px;
+    height: 64px;
+    margin-left: -20px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 20px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    z-index: 100;
+  }
+  section.ehr-access i.icon-play:hover {
+    background: #fff;
+    color: #ec0089;
+  }
+}
+
+section.ehr-features {
+  background-color: #ebf1f3;
+  padding-bottom: 115px;
+}
+section.ehr-features .features-cont {
+  max-width: 73.125em;
+  margin-left: auto;
+  margin-right: auto;
+}
+section.ehr-features .features-cont:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+section.ehr-features .features-cont h1 {
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: 65px;
+}
+section.ehr-features .features-cont .features-row {
+  display: block;
+  padding: 0 30px;
+  margin-bottom: 65px;
+}
+section.ehr-features .features-cont .features-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-features .features-cont .features-row {
+    padding: 0;
+  }
+}
+section.ehr-features .features-cont .features-row .feature {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 31.91489%;
+}
+section.ehr-features .features-cont .features-row .feature:last-child {
+  margin-right: 0;
+}
+section.ehr-features .features-cont .features-row .feature h2.subpoint-sm {
+  margin-top: 16px;
+}
+section.ehr-features .features-cont .features-row .feature p.btn-bot {
+  margin-bottom: 40px;
+}
+section.ehr-features .features-cont .features-row .feature .btn-sm-blue {
+  padding: 6px 13px;
+}
+section.ehr-features .features-cont .features-row .feature.download {
+  text-align: center;
+  border: 1px solid #c3d1d5;
+  border-radius: 4px;
+  padding: 45px 5px;
+  margin-top: -60px;
+}
+section.ehr-features .features-cont .features-row .feature.download h2 {
+  font-size: 20px;
+}
+section.ehr-features .features-cont .features-row .feature.download p {
+  font-size: 16px;
+}
+section.ehr-features .features-cont .features-row .feature.download .dl-cont a {
+  color: black;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 10px 10px;
+  display: inline-block;
+  position: relative;
+}
+section.ehr-features .features-cont .features-row .feature.download .dl-cont a:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 10px;
+  border-bottom: 2px solid #58b1d0;
+  border-right: 2px solid #58b1d0;
+  border-left: 2px solid #58b1d0;
+  border-radius: 0 0 2px 2px;
+  position: absolute;
+  left: -5px;
+}
+section.ehr-features .features-cont .features-row .feature.download .dl-cont a i.icon-arrow-down:before {
+  color: #58b1d0;
+  transform: translateY(-5px);
+  display: inline-block;
+  -webkit-transition: all 300ms ease-in;
+  -moz-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+}
+section.ehr-features .features-cont .features-row .feature.download .dl-cont a:hover i.icon-arrow-down:before {
+  transform: translateY(2px);
+}
+
+section.ehr-start {
+  background-color: #f7941e;
+  padding: 110px 0 125px;
+}
+section.ehr-start .start-cont {
+  max-width: 73.125em;
+  margin-left: auto;
+  margin-right: auto;
+}
+section.ehr-start .start-cont:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-start .start-cont {
+    max-width: 425px;
+    margin: 0 auto;
+  }
+}
+section.ehr-start .start-cont h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 35px;
+}
+section.ehr-start .start-cont .subpoint-lg-cont-1, section.ehr-start .start-cont .subpoint-lg-cont-2, section.ehr-start .start-cont .subpoint-lg-cont-3 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 31.91489%;
+  background-color: #ed8912;
+  padding: 20px 7px;
+}
+section.ehr-start .start-cont .subpoint-lg-cont-1:last-child, section.ehr-start .start-cont .subpoint-lg-cont-2:last-child, section.ehr-start .start-cont .subpoint-lg-cont-3:last-child {
+  margin-right: 0;
+}
+section.ehr-start .start-cont h2.subpoint-lg {
+  letter-spacing: 1px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+section.ehr-start .start-cont p.subpoint-lg {
+  color: white;
+  text-align: center;
+}
+section.ehr-start .start-cont .steps-cont {
+  margin-bottom: 212px;
+  padding: 0 100px;
+}
+section.ehr-start .start-cont .btn-cont {
+  clear: both;
+  text-align: center;
+  margin-top: 260px;
+}
+section.ehr-start .start-cont .btn-cont a.btn-lg-wht {
+  color: #f7941e;
+}
+section.ehr-start .start-cont .btn-cont a.btn-lg-wht:hover {
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-start {
+    padding: 50px 0;
+  }
+  section.ehr-start .start-cont h2 {
+    font-size: 1.375em;
+    line-height: 24px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  section.ehr-start .start-cont .steps-cont {
+    padding: 0 25px;
+    margin-bottom: 20px;
+  }
+  section.ehr-start .start-cont .steps-cont:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  section.ehr-start .start-cont .steps-cont .subpoint-lg-cont-1, section.ehr-start .start-cont .steps-cont .subpoint-lg-cont-2, section.ehr-start .start-cont .steps-cont .subpoint-lg-cont-3 {
+    float: left;
+    display: block;
+    margin-right: 2.12766%;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  section.ehr-start .start-cont .steps-cont .subpoint-lg-cont-1:last-child, section.ehr-start .start-cont .steps-cont .subpoint-lg-cont-2:last-child, section.ehr-start .start-cont .steps-cont .subpoint-lg-cont-3:last-child {
+    margin-right: 0;
+  }
+}
+
+section.ehr-feel {
+  padding: 50px 25px;
+}
+section.ehr-feel .feel-cont {
+  max-width: 73.125em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+section.ehr-feel .feel-cont:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+section.ehr-feel .feel-cont:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+section.ehr-feel .feel-cont i.icon-checkbox {
+  color: #ec008a;
+  font-size: 75px;
+}
+section.ehr-feel .feel-cont h2 {
+  margin-top: 30px;
+}
+section.ehr-feel .feel-cont .left-cont {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 48.93617%;
+  margin-left: 8.51064%;
+  position: relative;
+  top: 0px;
+}
+section.ehr-feel .feel-cont .left-cont:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-feel .feel-cont .left-cont {
+    text-align: center;
+  }
+}
+section.ehr-feel .feel-cont .left-cont p {
+  max-width: 90%;
+  color: #1b1d1e;
+}
+section.ehr-feel .feel-cont .right-cont {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 40.42553%;
+  position: relative;
+}
+section.ehr-feel .feel-cont .right-cont:last-child {
+  margin-right: 0;
+}
+section.ehr-feel .feel-cont .right-cont ul li {
+  list-style: none;
+}
+section.ehr-feel .feel-cont .right-cont ul li:before {
+  content: "";
+  height: 3px;
+  width: 20px;
+  background-color: #58b1d0;
+  display: block;
+  position: absolute;
+  left: -50px;
+  margin-top: 16px;
+}
+@media screen and (max-width: 900px) {
+  section.ehr-feel .feel-cont .right-cont ul li:before {
+    display: none;
+  }
+}
+section.ehr-feel .feel-cont .right-cont ul li p {
+  max-width: 370px;
+  color: #1b1d1e;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-feel {
+    padding: 50px 25px;
+  }
+  section.ehr-feel .feel-cont .left-cont {
+    float: left;
+    display: block;
+    margin-right: 2.12766%;
+    width: 100%;
+    margin-left: 0;
+    position: static;
+  }
+  section.ehr-feel .feel-cont .left-cont:last-child {
+    margin-right: 0;
+  }
+  section.ehr-feel .feel-cont .left-cont i {
+    display: block;
+    text-align: center;
+  }
+  section.ehr-feel .feel-cont .left-cont h2 {
+    font-size: 1.375em;
+    text-align: center;
+    margin-top: 5px;
+  }
+  section.ehr-feel .feel-cont .left-cont p {
+    text-align: center;
+    margin: 0 auto;
+  }
+  section.ehr-feel .feel-cont .right-cont {
+    float: left;
+    display: block;
+    margin-right: 2.12766%;
+    width: 100%;
+  }
+  section.ehr-feel .feel-cont .right-cont:last-child {
+    margin-right: 0;
+  }
+  section.ehr-feel .feel-cont .right-cont ul li h2 {
+    margin-bottom: 5px;
+  }
+  section.ehr-feel .feel-cont .right-cont ul li h2, section.ehr-feel .feel-cont .right-cont ul li p {
+    text-align: center;
+  }
+  section.ehr-feel .feel-cont .right-cont ul li p {
+    margin: 0 auto;
+  }
+}
+
+section.ehr-specialties {
+  position: relative;
+  background-color: #ebf1f3;
+  height: 700px;
+  padding: 0;
+  padding-top: 130px;
+  overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-specialties {
+    padding-top: 50px;
+    height: auto;
+  }
+}
+section.ehr-specialties .no-overlay {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-specialties .no-overlay {
+    position: static;
+  }
+}
+section.ehr-specialties .lockup-cont {
+  max-width: 73.125em;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 15%;
+}
+section.ehr-specialties .lockup-cont:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-specialties .lockup-cont {
+    max-width: 425px;
+    margin: 0 auto;
+  }
+}
+section.ehr-specialties .lockup-cont i.icon-checkbox {
+  color: #ec008a;
+  font-size: 75px;
+}
+section.ehr-specialties .lockup-cont p.indicant {
+  letter-spacing: 1px;
+  margin-bottom: -5px;
+  color: #1b1d1e;
+}
+section.ehr-specialties .lockup-cont h1 {
+  font-size: 44px;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-specialties .lockup-cont h1 {
+    font-size: 1.375em;
+    line-height: 24px;
+  }
+}
+section.ehr-specialties .lockup-cont h3 {
+  padding: 0 200px;
+  color: #1b1d1e;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-specialties .lockup-cont h3 {
+    padding: 0 25px;
+  }
+}
+section.ehr-specialties .singlechoice-ehr {
+  margin-top: 150px !important;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-specialties .singlechoice-ehr {
+    margin-top: 30px !important;
+    width: 100% !important;
+    padding: 0 25px 0 25px !important;
+  }
+  section.ehr-specialties .singlechoice-ehr .jspContainer, section.ehr-specialties .singlechoice-ehr .jspPane {
+    width: 100% !important;
+    height: auto !important;
+  }
+  section.ehr-specialties .singlechoice-ehr .jspContainer select, section.ehr-specialties .singlechoice-ehr .jspPane select {
+    padding: 20px;
+  }
+}
+section.ehr-specialties .step2 .singlechoice-ehr {
+  background-color: transparent;
+  border: none;
+  top: 215px;
+  width: 446px !important;
+  height: 62px;
+  left: 270px;
+}
+section.ehr-specialties .step2Specialty {
+  border: 1px solid #dbe0e1;
+  background: #fff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #fff url("../../images/optimized/calculator/dropdown-arrow.png") no-repeat;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 18px 188px 18px 28px;
+  border-radius: 55px;
+  background-position: 385px 25px;
+  color: #525a5d;
+  outline: none;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-specialties .step2Specialty {
+    background-position: 95% 28px;
+  }
+}
+section.ehr-specialties .special-overlay {
+  position: absolute;
+  top: 0;
+  right: -100%;
+  height: 100%;
+  width: 100%;
+  z-index: 500;
+  transition: transform 400ms ease-out;
+}
+section.ehr-specialties .special-overlay.slide-in {
+  -webkit-transform: translate3d(-100%, 0, 0);
+  -moz-transform: translate3d(-100%, 0, 0);
+  -ms-transform: translate3d(-100%, 0, 0);
+  -o-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+}
+section.ehr-specialties .special-overlay h2 {
+  color: white;
+  font-size: 2.375em;
+}
+section.ehr-specialties .special-overlay h4 {
+  color: white;
+  font-size: 1em;
+  margin: 30px 0 10px 0;
+}
+section.ehr-specialties .special-overlay p {
+  color: white;
+}
+section.ehr-specialties .special-overlay .btn-lg-clear {
+  display: inline-block;
+  font-size: 0.6875em;
+  border-width: 1px;
+  padding: 8px 35px;
+  margin-bottom: 35px;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-specialties .special-overlay .btn-lg-clear {
+    width: 100%;
+  }
+}
+section.ehr-specialties .special-overlay .txt-cont {
+  max-width: 100%;
+  width: 460px;
+  max-width: 73.125em;
+  margin-left: auto;
+  margin-right: auto;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+section.ehr-specialties .special-overlay .txt-cont:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+section.ehr-specialties .special-overlay .left-cont {
+  width: 50%;
+  height: 100%;
+  background-color: #3c96b6;
+  display: inline-block;
+  float: left;
+  position: relative;
+  padding-top: 130px;
+}
+section.ehr-specialties .special-overlay .right-cont {
+  height: 100%;
+  width: 50%;
+  background-color: #ebf1f3;
+  display: inline-block;
+  position: relative;
+  padding-top: 130px;
+}
+section.ehr-specialties .special-overlay .right-cont .special-quote {
+  position: relative;
+  background-color: white;
+}
+section.ehr-specialties .special-overlay .right-cont .special-quote:before, section.ehr-specialties .special-overlay .right-cont .special-quote:after {
+  position: absolute;
+  left: 15%;
+  bottom: -8px;
+  margin-top: -5px;
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid white;
+}
+section.ehr-specialties .special-overlay .right-cont .special-quote p {
+  color: #1b1d1e;
+  font-size: 1.5em;
+  font-weight: 100;
+  line-height: 44px;
+  padding: 20px 30px;
+}
+section.ehr-specialties .special-overlay .right-cont .quote-author {
+  color: #1b1d1e;
+  font-size: 0.8125em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+section.ehr-specialties .special-overlay .right-cont hr {
+  border: 0;
+  border-top: 1px solid #d4dbdd;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-specialties .special-overlay h2 {
+    font-size: 1.375em;
+    line-height: 24px;
+  }
+  section.ehr-specialties .special-overlay h4 {
+    text-transform: uppercase;
+  }
+  section.ehr-specialties .special-overlay h2, section.ehr-specialties .special-overlay h4, section.ehr-specialties .special-overlay p {
+    display: block;
+    padding-right: 25px;
+  }
+  section.ehr-specialties .special-overlay p {
+    padding-right: 25px;
+  }
+  section.ehr-specialties .special-overlay .left-cont {
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+  }
+  section.ehr-specialties .special-overlay .left-cont .btn-lg-clear {
+    margin-bottom: 20px;
+  }
+  section.ehr-specialties .special-overlay .left-cont .txt-cont {
+    width: 100%;
+    position: static;
+    transform: none;
+    padding: 25px;
+  }
+  section.ehr-specialties .special-overlay .right-cont {
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+  }
+  section.ehr-specialties .special-overlay .right-cont .txt-cont {
+    width: 100%;
+    position: static;
+    transform: none;
+    padding: 25px;
+  }
+  section.ehr-specialties .special-overlay .right-cont .special-quote p {
+    font-size: 1.375em;
+    line-height: 24px;
+    padding: 30px 20px;
+  }
+  section.ehr-specialties .special-overlay .right-cont #specialty-link {
+    margin-bottom: 20px;
+  }
+  section.ehr-specialties .special-overlay .right-cont .quote-author {
+    padding: 0;
+  }
+}
+
+section.ehr-awards {
+  padding: 105px 25px 90px;
+  overflow: hidden;
+}
+section.ehr-awards .alt-cont h2 {
+  margin-top: 20px;
+}
+section.ehr-awards .alt-cont p {
+  margin-bottom: 50px;
+}
+section.ehr-awards .slider {
+  max-width: 980px;
+  height: 260px;
+  background-color: #475154;
+  margin: 0 auto;
+  position: relative;
+}
+section.ehr-awards .slide-cont {
+  max-width: 73.125em;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+section.ehr-awards .slide-cont:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+section.ehr-awards .number-cont {
+  width: 33%;
+  background-color: #3c4345;
+  height: 260px;
+  float: left;
+}
+section.ehr-awards .number-cont .award-number {
+  background: url(../../images/optimized/awards/black-book-seal-2015.png) center 15px no-repeat;
+  background-size: 224px;
+  height: 242px;
+}
+section.ehr-awards .txt-cont {
+  float: left;
+  display: block;
+  width: 57.45%;
+  position: relative;
+  padding: 2% 0 0 32px;
+}
+section.ehr-awards .txt-cont h2.award-title {
+  color: white;
+}
+section.ehr-awards .txt-cont h3.award-sub {
+  font-size: 1.375em;
+  font-weight: 600;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+section.ehr-awards .txt-cont p.award-txt {
+  color: white;
+  margin-top: 20px;
+}
+section.ehr-awards .views_slideshow_controls_text_previous {
+  font-size: 0;
+  background-image: url("../../images/optimized/arrw-left.png");
+  height: 57px;
+  width: 57px;
+  display: inline-block;
+  position: absolute;
+  left: -10%;
+  top: 40%;
+  transition: all 250ms ease-in;
+}
+section.ehr-awards .views_slideshow_controls_text_previous:hover {
+  background-image: url("../../images/optimized/arrw-left-hover.png");
+}
+section.ehr-awards .views-slideshow-controls-text-next {
+  font-size: 0;
+  background-image: url("../../images/optimized/arrw-right.png");
+  height: 57px;
+  width: 57px;
+  display: inline-block;
+  position: absolute;
+  right: -10%;
+  top: 40%;
+  transition: all 250ms ease-in;
+}
+section.ehr-awards .views-slideshow-controls-text-next:hover {
+  background-image: url("../../images/optimized/arrw-right-hover.png");
+}
+section.ehr-awards .views-slideshow-controls-text-pause {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-awards {
+    padding: 50px 0 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  section.ehr-awards {
+    position: static;
+    float: left;
+    display: block;
+    margin-right: 2.12766%;
+    width: 100%;
+    margin-left: 0%;
+  }
+  section.ehr-awards:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  section.ehr-awards .alt-cont {
+    max-width: 100%;
+  }
+  section.ehr-awards .slider {
+    width: 100% !important;
+    height: 400px !important;
+    font-size: 1em;
+  }
+  section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_0 .slide-cont, section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_1 .slide-cont, section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_2 .slide-cont, section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_3 .slide-cont {
+    @inherit slider;
+    position: relative;
+    top: 35px;
+    left: 0;
+    text-align: center;
+    top: 0;
+  }
+  section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_0 .number-cont, section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_1 .number-cont, section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_2 .number-cont, section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_3 .number-cont {
+    width: 100%;
+    height: 220px;
+  }
+  section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_0 .number-cont .award-number, section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_1 .number-cont .award-number, section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_2 .number-cont .award-number, section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_3 .number-cont .award-number {
+    background-position: center 8px;
+    background-size: 180px;
+    height: 260px;
+  }
+  section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_0 .txt-cont, section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_1 .txt-cont, section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_2 .txt-cont, section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_3 .txt-cont {
+    width: 100%;
+    text-align: center;
+    position: static;
+    float: left;
+    display: block;
+    margin-right: 2.12766%;
+    width: 100%;
+    margin-left: 0%;
+    padding: 8px 20px;
+    text-align: center;
+  }
+  section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_0 .txt-cont:last-child, section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_1 .txt-cont:last-child, section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_2 .txt-cont:last-child, section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_3 .txt-cont:last-child {
+    margin-right: 0;
+  }
+  section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_0 .txt-cont h3.award-sub, section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_1 .txt-cont h3.award-sub, section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_2 .txt-cont h3.award-sub, section.ehr-awards #views_slideshow_cycle_div_awards_slider-block_3 .txt-cont h3.award-sub {
+    font-size: 1em;
+  }
+}
+
+section.ehr-resources {
+  background-color: #ebf1f3;
+  padding: 90px 0 155px;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-resources {
+    padding-bottom: 0;
+  }
+}
+section.ehr-resources .lockup-cont {
+  max-width: 73.125em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 770px;
+}
+section.ehr-resources .lockup-cont:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-resources .lockup-cont {
+    max-width: 445px;
+  }
+}
+section.ehr-resources .lockup-cont img {
+  margin-bottom: 30px;
+}
+section.ehr-resources .lockup-cont h1.main-title {
+  font-size: 44px;
+  margin: 0;
+  margin-top: -12px;
+}
+section.ehr-resources .lockup-cont p.indicant {
+  margin: 0;
+}
+section.ehr-resources .lockup-cont h3.sub-txt {
+  margin-top: -12px;
+  color: #1b1d1e;
+}
+section.ehr-resources .featured-cont {
+  max-width: 73.125em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 995px;
+}
+section.ehr-resources .featured-cont:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+section.ehr-resources .featured-cont .f-resource {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 31.91489%;
+  height: 445px;
+  width: 315px;
+  padding: 55px 0;
+}
+section.ehr-resources .featured-cont .f-resource:last-child {
+  margin-right: 0;
+}
+section.ehr-resources .featured-cont .f-resource .color-top {
+  height: 175px;
+  width: 100%;
+  background-color: #7FD2EB;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-resources .featured-cont .f-resource .color-top {
+    height: 125px;
+  }
+}
+section.ehr-resources .featured-cont .f-resource .rsrc1 {
+  background: transparent url(../../images/optimized/ehr/ehr-demo-cta.jpg) top center no-repeat;
+}
+section.ehr-resources .featured-cont .f-resource .rsrc2 {
+  background: transparent url(../../images/optimized/ehr/selecting_an_ehr.jpg) top center no-repeat;
+}
+section.ehr-resources .featured-cont .f-resource .rsrc3 {
+  background: transparent url(../../images/optimized/ehr/ehr_10_mistakes.jpg) top center no-repeat;
+}
+section.ehr-resources .featured-cont .f-resource .main-info {
+  background-color: white;
+  height: 280px;
+  width: 100%;
+  padding: 0 40px;
+}
+section.ehr-resources .featured-cont .f-resource .main-info h3 {
+  color: #1b1d1e;
+  font-size: 13px;
+  font-weight: 700;
+  padding-top: 35px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+section.ehr-resources .featured-cont .f-resource .main-info p {
+  font-size: 1.25em;
+  color: #1b1d1e;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-resources .featured-cont .f-resource .main-info p {
+    font-size: 22px;
+    line-height: 24px;
+  }
+}
+section.ehr-resources .featured-cont .f-resource .main-info .btn-md-purp {
+  border: 1px solid black;
+  color: black;
+  background-color: transparent;
+  padding: 7px 25px;
+  font-size: 11px;
+  font-weight: 600;
+}
+section.ehr-resources .featured-cont .f-resource .main-info .btn-md-purp:hover {
+  background-color: black;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-resources .featured-cont .f-resource .main-info .btn-md-purp {
+    display: block;
+  }
+}
+@media screen and (max-width: 987px) and (min-width: 768px) {
+  section.ehr-resources .featured-cont .f-resource .main-info {
+    padding: 0 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  section.ehr-resources .featured-cont .f-resource .main-info {
+    height: auto;
+    padding-bottom: 30px;
+  }
+}
+@media screen and (max-width: 987px) {
+  section.ehr-resources .featured-cont .f-resource {
+    padding: 55px 10px;
+    margin-right: 0;
+    width: 33.333%;
+  }
+}
+@media screen and (max-width: 768px) {
+  section.ehr-resources .featured-cont .f-resource {
+    float: none;
+    width: 280px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 0;
+  }
+  section.ehr-resources .featured-cont .f-resource:last-child {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  section.ehr-resources {
+    padding-top: 20px;
+  }
+  section.ehr-resources .lockup-cont {
+    padding: 25px;
+  }
+  section.ehr-resources .lockup-cont h1.main-title {
+    font-size: 22px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+}
+section.ehr-resources.new-practice .resource-holder {
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+section.ehr-resources.new-practice .resource-holder .kcontainer {
+  max-width: 80%;
+  margin: 0;
+}
+section.ehr-resources.new-practice .resource-holder .hubview {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 18%;
+}
+
+section.ehr-faq {
+  background-color: #f4f9fb;
+  padding: 100px 0 50px;
+}
+section.ehr-faq .faq-cont {
+  max-width: 73.125em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+section.ehr-faq .faq-cont:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+section.ehr-faq .faq-cont h2 {
+  font-size: 44px;
+}
+section.ehr-faq .faq-cont h3 {
+  display: none;
+}
+section.ehr-faq .faq-cont p {
+  display: none;
+}
+section.ehr-faq .placeholder {
+  max-width: 73.125em;
+  margin-left: auto;
+  margin-right: auto;
+  height: 350px;
+  width: 966px;
+  background-color: white;
+  margin-top: 36px;
+}
+section.ehr-faq .placeholder:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+section.ehr-faq .btn-cont {
+  max-width: 73.125em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 55px;
+}
+section.ehr-faq .btn-cont:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+section.ehr-faq .btn-cont .btn-sm-blue {
+  padding: 6px 19px;
+}
+section.ehr-faq .ehr-faq-sections {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 82.97872%;
+  float: none !important;
+  margin: 0 auto !important;
+}
+section.ehr-faq .ehr-faq-sections:last-child {
+  margin-right: 0;
+}
+section.ehr-faq .ehr-faq-sectionsh2 {
+  text-align: center;
+  font-size: 1.5em;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-faq {
+    padding: 50px 0;
+  }
+  section.ehr-faq h2 {
+    font-size: 1.375em !important;
+  }
+  section.ehr-faq .snappy-questions-container .snappy-question .snappy-question-header {
+    padding-left: 20px;
+    padding-right: 60px;
+  }
+  section.ehr-faq .snappy-questions-container .snappy-question .snappy-question-header h3 {
+    font-size: 1em;
+    line-height: 20px;
+  }
+  section.ehr-faq .snappy-questions-container .snappy-question .snappy-question-header > a {
+    padding: 5px;
+    width: 24px;
+    height: 24px;
+    right: 15px;
+  }
+  section.ehr-faq .snappy-questions-container .snappy-question .snappy-question-header > a .container span.indicator {
+    top: 4px;
+    right: 4px;
+  }
+  section.ehr-faq .snappy-questions-container .snappy-question.active .snappy-question-header > a .container span.indicator {
+    top: 4px;
+    right: 11px;
+  }
+  section.ehr-faq .snappy-questions-container .snappy-question .snappy-question-header > a .container > p {
+    display: none;
+  }
+  section.ehr-faq .snappy-questions-container .snappy-question .snappy-question-body {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  section.ehr-faq .snappy-questions-container .snappy-question .snappy-question-body p {
+    padding: 0;
+  }
+}
+
+section.ehr-cta {
+  padding: 110px 0 131px;
+  background-color: #f7941e;
+}
+section.ehr-cta .lockup-cont {
+  max-width: 73.125em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+section.ehr-cta .lockup-cont:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+section.ehr-cta .lockup-cont p.indicant {
+  color: white;
+  margin-bottom: -5px;
+}
+section.ehr-cta .lockup-cont h1.main-title {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+section.ehr-cta .btn-cont {
+  padding-top: 20px;
+}
+section.ehr-cta .btn-cont .btn-lg-wht {
+  color: #f7941e;
+}
+section.ehr-cta .btn-cont .btn-lg-wht:hover {
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  section.ehr-cta {
+    padding: 50px 25px 80px;
+  }
+  section.ehr-cta h1 {
+    font-size: 2em;
+    line-height: 30px;
+    margin-bottom: 20px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #views_slideshow_cycle_teaser_section_awards_slider-block {
+    width: 100% !important;
+    height: 400px !important;
+  }
+
+  .views_slideshow_cycle_slide {
+    height: 400px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  #views_slideshow_controls_text_previous_awards_slider-block, #views_slideshow_controls_text_next_awards_slider-block {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  section[class^="ehr-"] .txt-cont a {
+    display: block;
+    margin-bottom: 60px;
+  }
+}

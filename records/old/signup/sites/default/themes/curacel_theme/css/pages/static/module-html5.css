@@ -1,0 +1,474 @@
+/* Single module page */
+/* todo: add ehr to body class */
+section.plans-and-pricing .promo50block .discounts .title {
+  font-weight: 600;
+}
+section.plans-and-pricing .promo50block .discounts .middle {
+  border-left: 1px solid #D6D6D6;
+  border-right: 1px solid #D6D6D6;
+}
+section.plans-and-pricing .lockup-cont h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  margin: 45px 0 25px 0;
+}
+section.plans-and-pricing .col-pricing {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+section.plans-and-pricing .header-action-cont {
+  padding: 40px 3px 25px 3px;
+  background-color: #f26649;
+}
+section.plans-and-pricing .header-action-cont h2 {
+  color: #FFF;
+  font-weight: 400;
+  padding: 25px 4px 0 4px;
+}
+section.plans-and-pricing .header-action-cont p.provider-desc {
+  color: #FFF;
+  text-align: center;
+  font-size: 1.2em;
+}
+section.plans-and-pricing .plan-desc {
+  max-width: 86%;
+  color: #565656;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 20px auto 30px auto;
+  line-height: 1.5em;
+  clear: both;
+  min-height: 115px;
+}
+section.plans-and-pricing .btn-pricing {
+  width: 75%;
+}
+section.plans-and-pricing .col-pricing .details-cont {
+  min-height: auto;
+  padding-bottom: 40px;
+}
+
+/* All modules */
+.module-feature .ani {
+  -webkit-transition: all 500ms ease-out 1s;
+  -moz-transition: all 500ms ease-out 1s;
+  -o-transition: all 500ms ease-out 1s;
+  transition: all 500ms ease-out 1s;
+}
+.module-feature .forBpMd {
+  display: none !important;
+}
+.module-feature .noBor {
+  border: 0 none !important;
+}
+.module-feature .tabs h3 {
+  cursor: pointer;
+}
+.module-feature .tabs p {
+  display: none;
+}
+.module-feature .tabs p.default {
+  display: block;
+}
+
+.kcon {
+  margin: 20px auto 0;
+  width: 1170px;
+}
+
+.kbox {
+  padding: 1em;
+}
+
+.module-feature .featureHero {
+  text-align: center;
+  width: 700px;
+  margin: 10px auto 60px;
+}
+.module-feature .featureHero img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #CCC;
+  float: left;
+  padding: 9px;
+}
+.module-feature .featureHero h3 {
+  display: block;
+  float: left;
+  line-height: 95px;
+  margin: 0 38px 40px 38px;
+  font-size: 24px;
+  color: #333;
+  letter-spacing: 1px;
+}
+.module-feature .featureHero p {
+  text-align: left;
+  color: #333;
+  font-size: 16px;
+  line-height: 150%;
+  padding: 0;
+}
+.module-feature .tabs h3 {
+  color: #999;
+  font-size: 18px;
+  font-weight: 600;
+  border-top: 1px solid #DDD;
+  padding: 24px 34px 10px 56px;
+  margin: 20px 0 0;
+  background: #FFF url(../../../../../files/ck/webupload/images/icons/04/function-icon-placeholder.png) left 18px no-repeat;
+  background-size: 36px 36px;
+  position: relative;
+}
+.module-feature.clinical .tabs h3[data-tabimg="1"] {
+  background-image: url(../../../../../files/ck/webupload/images/icons/05/clinical-note-to-superbill-made-simple.png);
+}
+.module-feature.clinical .tabs h3[data-tabimg="2"] {
+  background-image: url(../../../../../files/ck/webupload/images/icons/05/clinical-easy-on-an-ipad.png);
+}
+.module-feature.clinical .tabs h3[data-tabimg="3"] {
+  background-image: url(../../../../../files/ck/webupload/images/icons/05/clinical-need-to-e-prescribe.png);
+}
+.module-feature.billing .tabs h3[data-tabimg="1"] {
+  background-image: url(../../../../../files/ck/webupload/images/icons/05/billing-centralized-AR-management.png);
+}
+.module-feature.billing .tabs h3[data-tabimg="2"] {
+  background-image: url(../../../../../files/ck/webupload/images/icons/05/billing-intuitive-billing-analytics.png);
+}
+.module-feature.billing .tabs h3[data-tabimg="3"] {
+  background-image: url(../../../../../files/ck/webupload/images/icons/05/billing-easy-and-accurate-charge-capture.png);
+}
+.module-feature.billing .tabs h3[data-tabimg="4"] {
+  background-image: url(../../../../../files/ck/webupload/images/icons/05/billing-a-powerful-billing-application.png);
+}
+.module-feature.mbilling .tabs h3[data-tabimg="1"] {
+  background-image: url(../../../../../files/ck/webupload/images/icons/05/managedbilling-claimtracking.png);
+}
+.module-feature.mbilling .tabs h3[data-tabimg="2"] {
+  background-image: url(../../../../../files/ck/webupload/images/icons/05/billco-intuitive-billing-analytics.png);
+}
+.module-feature.mbilling .tabs h3[data-tabimg="3"] {
+  background-image: url(../../../../../files/ck/webupload/images/icons/05/managedbilling-billing-tasks.png);
+}
+.module-feature.billco .tabs h3[data-tabimg="1"] {
+  background-image: url(../../../../../files/ck/webupload/images/icons/05/billco-centralized-AR-management.png);
+}
+.module-feature.billco .tabs h3[data-tabimg="2"] {
+  background-image: url(../../../../../files/ck/webupload/images/icons/05/billco-intuitive-billing-analytics.png);
+}
+.module-feature.billco .tabs h3[data-tabimg="3"] {
+  background-image: url(../../../../../files/ck/webupload/images/icons/05/billco-easy-and-accurate-charge-capture.png);
+}
+.module-feature.billco .tabs h3[data-tabimg="4"] {
+  background-image: url(../../../../../files/ck/webupload/images/icons/05/billing-a-powerful-billing-application.png);
+}
+.module-feature.marketing .tabs h3[data-tabimg="1"] {
+  background-image: url(../../../../../files/ck/webupload/images/icons/05/marketing-practice-analytics-at-your-fingertips.png);
+}
+.module-feature.marketing .tabs h3[data-tabimg="2"] {
+  background-image: url(../../../../../files/ck/webupload/images/icons/05/marketing-shine-online-and-look-good-in-search-results.png);
+}
+.module-feature.marketing .tabs h3[data-tabimg="3"] {
+  background-image: url(../../../../../files/ck/webupload/images/icons/05/marketing-connect-better-with-patients-and-reduce-costly-no-shows-.png);
+}
+.module-feature .tabs {
+  border-bottom: 1px solid #DDD;
+  margin: 0 50px 0 0;
+  padding: 0 0 18px 0;
+}
+.module-feature .tabs h3:hover {
+  color: #666;
+}
+.module-feature .tabs h3.active {
+  color: #333;
+}
+.module-feature .tabs h3.first {
+  border-top: 0 none;
+  padding-top: 6px;
+  margin-top: 0;
+  background-position: 0 0;
+}
+.module-feature .tabs h3.first span {
+  top: 10px;
+}
+.module-feature .tabs p {
+  color: #333;
+  padding: 12px 0 0;
+  font-weight: 400;
+}
+.module-feature .cta {
+  clear: both;
+  display: block;
+  margin: 32px 0 0;
+}
+.module-feature .cta .btn-lg-orng {
+  padding: 14px 40px;
+}
+.module-feature .tabFeatureImg {
+  text-align: center;
+  position: relative;
+}
+.module-feature .featureHero p span {
+  display: block;
+  font-weight: 800;
+  font-size: 18px;
+  margin: 0 0 8px;
+}
+.module-feature .tabs h3 span {
+  background: #FFF url(../../../../../files/ck/webupload/images/icons/04/module-page-arrow.png) 0 0 no-repeat;
+  float: right;
+  width: 29px;
+  height: 29px;
+  margin: -4px 0 0;
+  background-size: 29px 29px;
+  position: absolute;
+  right: 0;
+  top: 26px;
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transition: all 150ms ease-out;
+  -moz-transition: all 150ms ease-out;
+  -o-transition: all 150ms ease-out;
+  transition: all 150ms ease-out;
+}
+.module-feature .tabs h3.active span {
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.module-feature .tabFeatureImg {
+  width: 60%;
+}
+.module-feature .tabDesc {
+  width: 40%;
+}
+.module-feature .featuredModVideo {
+  position: absolute;
+  top: 29px;
+  left: 111px;
+  width: 480px;
+  display: none;
+}
+.module-feature .featuredModVideo.active {
+  display: block;
+}
+.module-feature .featuredModVideo.cipad {
+  width: 388px;
+  top: 19px;
+  left: 154px;
+}
+.module-feature .featuredModVideo.cphone {
+  width: 145px;
+  top: 78px;
+  left: 333px;
+}
+
+@media screen and (max-width: 1280px) {
+  .kcon {
+    width: 100%;
+    margin: 0;
+  }
+
+  .module-feature .tabFeatureImg .imgCont {
+    width: 640px;
+  }
+  .module-feature .featuredModVideo {
+    position: absolute;
+    top: 26px;
+    left: 101px;
+    width: 438px;
+  }
+  .module-feature .featuredModVideo.cipad {
+    width: 353px;
+    top: 18px;
+    left: 141px;
+  }
+  .module-feature .featuredModVideo.cphone {
+    width: 130px;
+    top: 73px;
+    left: 305px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .module-feature .tabFeatureImg .imgCont {
+    width: 500px;
+    margin: 0;
+  }
+  .module-feature .featuredModVideo {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    width: 340px;
+  }
+  .module-feature .featuredModVideo.cipad {
+    width: 276px;
+    top: 14px;
+    left: 110px;
+  }
+  .module-feature .tabFeatureImg .imgCont.cphone {
+    width: 640px;
+    margin: 0 0 0 -35px;
+  }
+  .module-feature .featuredModVideo.cphone {
+    width: 131px;
+    top: 73px;
+    left: 270px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .module-feature .tabFeatureImg {
+    width: 100%;
+    background-color: black;
+  }
+  .module-feature .featuredModVideo {
+    position: absolute;
+    top: 29px;
+    left: 111px;
+  }
+  .module-feature .featuredModVideo.cipad {
+    width: 388px;
+    top: 20px;
+    left: 154px;
+  }
+  .module-feature .featuredModVideo.cphone {
+    width: 145px;
+    top: 78px;
+    left: 333px;
+  }
+  .module-feature .tabDesc {
+    width: 100%;
+  }
+  .module-feature .forBpMd {
+    display: block !important;
+  }
+  .module-feature .forBpMd.claptop, .module-feature .forBpMd.claptop2 {
+    display: block !important;
+    text-align: center;
+    background: #FFF url(../../../../../files/ck/webupload/images/banners/04/laptop.png) center top no-repeat;
+    background-size: contain;
+    height: 250px;
+  }
+  .module-feature .forBpMd.claptop img, .module-feature .forBpMd.claptop2 img {
+    margin: 20px auto 0 auto;
+    width: 305px;
+  }
+  .module-feature .forBpMd.cipad {
+    display: block !important;
+    text-align: center;
+    background: #FFF url(../../../../../files/ck/webupload/images/banners/04/ipad.png) center top no-repeat;
+    background-size: contain;
+    height: 250px;
+    margin: 0 0 -25px 0;
+  }
+  .module-feature .forBpMd.cipad img {
+    margin: 13px auto 0 auto;
+    width: 249px;
+    padding: 0 4px 0 0px;
+  }
+  .module-feature .forBpMd.cphone {
+    display: block !important;
+    text-align: center;
+    background: #FFF url(../../../../../files/ck/webupload/images/banners/04/phone.png) center top no-repeat;
+    background-size: contain;
+    height: 250px;
+  }
+  .module-feature .forBpMd.cphone img {
+    margin: 51px auto 0 auto;
+    width: 162px;
+    padding: 0 1px 0 71px;
+  }
+  .module-feature .featureHero {
+    margin: 0 0 30px 0;
+  }
+  .module-feature .featureHero img {
+    margin: 15px auto 15px auto;
+    text-align: center;
+    float: none;
+  }
+  .module-feature .featureHero .imgCont {
+    text-align: center;
+  }
+  .module-feature .featureHero h3 {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 25px;
+    line-height: 30px;
+  }
+  .module-feature .featureHero p {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 0 40px;
+    margin: 0;
+  }
+  .module-feature .featureHero p span {
+    text-align: center;
+    margin: 0 0 12px 0;
+  }
+  .module-feature .tabs {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+  }
+  .module-feature .tabFeatureImg {
+    display: none;
+  }
+  .module-feature .tabs h3 {
+    background-color: transparent;
+    background-image: none;
+    color: #333;
+    text-align: center;
+    border: 0 none;
+    cursor: default;
+    margin: 6px 0 0 0;
+  }
+  .module-feature .tabs h3.active {
+    background-image: none;
+  }
+  .module-feature .tabs h3.first {
+    padding-top: 24px;
+  }
+  .module-feature .tabs h3 span, .module-feature .tabs h3.active span {
+    display: none;
+  }
+  .module-feature .tabs p {
+    display: block;
+    text-align: center;
+    padding: 10px 40px;
+    margin: 0;
+  }
+  .module-feature .cta {
+    text-align: center;
+    margin: 22px 25px 25px 25px;
+    border-bottom: 1px solid #DDD;
+    height: 70px;
+    display: none;
+  }
+}
+@media screen and (max-width: 380px) {
+  .module-feature .forBpMd.claptop, .module-feature .forBpMd.claptop2 {
+    height: 157px;
+  }
+  .module-feature .forBpMd.claptop img, .module-feature .forBpMd.claptop2 img {
+    margin: 12px auto 0 auto;
+    width: 190px;
+  }
+  .module-feature .forBpMd.cipad {
+    height: 157px;
+  }
+  .module-feature .forBpMd.cipad img {
+    margin: 10px auto 0 auto;
+    width: 154px;
+    padding-right: 2px;
+  }
+  .module-feature .forBpMd.cphone {
+    height: 157px;
+  }
+  .module-feature .forBpMd.cphone img {
+    margin: 32px auto 0 auto;
+    width: 129px;
+    padding: 0 14px 0 59px;
+  }
+}

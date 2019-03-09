@@ -1,0 +1,467 @@
+/** --------------------------------------------------------
+    _fonts.scss
+    --------------------------------------------------------
+    @author Keenan Staffieri
+    Include all custom webfonts.
+    -------------------------------------------------------- */
+/**
+    Include custom fonts
+*/
+@font-face {
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../../fonts/opensans_regular/OpenSans-Regular-webfont.eot");
+  src: url("../../fonts/opensans_regular/OpenSans-Regular-webfontd41d.eot?#iefix") format("embedded-opentype"), url("../../fonts/opensans_regular/OpenSans-Regular-webfont.woff") format("woff"), url("../../fonts/opensans_regular/OpenSans-Regular-webfont.ttf") format("truetype"), url("../../fonts/opensans_regular/OpenSans-Regular-webfont.svg#Open Sans") format("svg");
+}
+@font-face {
+  font-family: "kareo";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../../fonts/icons/kareo_v6.eot");
+  src: url("../../fonts/icons/kareo_v6d41d.eot?#iefix") format("embedded-opentype"), url("../../fonts/icons/kareo_v6.woff") format("woff"), url("../../fonts/icons/kareo_v6.ttf") format("truetype"), url("../../fonts/icons/kareo_v6.svg#kareo") format("svg");
+}
+/**
+    font-face
+    Include required file types for custom web font rendering.
+        EXAMPLE:
+        @include font-face('My Font','../fonts/family_name/font_name');ff
+*/
+[data-icon]:before {
+  font-family: "kareo" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "kareo" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-db:before {
+  content: "6";
+}
+
+.icon-facebook:before {
+  content: "l";
+}
+
+.icon-linkedin:before {
+  content: "m";
+}
+
+.icon-twitter:before {
+  content: "n";
+}
+
+.icon-glassdoor:before {
+  content: "}";
+}
+
+.icon-googleplus:before {
+  content: "^";
+}
+
+.icon-youtube:before {
+  content: "\5c";
+}
+
+.icon-pricing-chat:before {
+  content: "p";
+}
+
+.icon-pricing-contact:before {
+  content: "q";
+}
+
+.icon-pricing-download:before {
+  content: "r";
+}
+
+.icon-pricing-support:before {
+  content: "s";
+}
+
+.icon-pricing-top:before {
+  content: "t";
+}
+
+.icon-pricing-chat-1:before {
+  content: "a";
+}
+
+.icon-arrow-down:before {
+  content: "f";
+}
+
+.icon-arrowhead-left:before {
+  content: "g";
+}
+
+.icon-arrowhead-right:before {
+  content: "h";
+}
+
+.icon-checkbox:before {
+  content: "i";
+}
+
+.icon-checkmark:before {
+  content: "j";
+}
+
+.icon-in-progess:before {
+  content: "k";
+}
+
+.icon-menu:before {
+  content: "o";
+}
+
+.icon-minus:before {
+  content: "u";
+}
+
+.icon-play:before {
+  content: "v";
+}
+
+.icon-plus:before {
+  content: "w";
+}
+
+.icon-search:before {
+  content: "x";
+}
+
+.icon-logo:before {
+  content: "y";
+}
+
+.icon-abt-co-jobs-1:before {
+  content: "z";
+}
+
+.icon-abt-co-jobs-2:before {
+  content: "A";
+}
+
+.icon-abt-co-jobs-3:before {
+  content: "B";
+}
+
+.icon-abt-co-jobs-4:before {
+  content: "C";
+}
+
+.icon-abt-co-jobs-5:before {
+  content: "D";
+}
+
+.icon-abt-co-jobs-6:before {
+  content: "E";
+}
+
+.icon-abt-co-jobs-7:before {
+  content: "F";
+}
+
+.icon-abt-co-num-1:before {
+  content: "G";
+}
+
+.icon-abt-co-num-2:before {
+  content: "H";
+}
+
+.icon-abt-co-num-3:before {
+  content: "I";
+}
+
+.icon-abt-co-num-4:before {
+  content: "J";
+}
+
+.icon-abt-co-num-5:before {
+  content: "K";
+}
+
+.icon-abt-co-num-6:before {
+  content: "L";
+}
+
+.icon-abt-co-vis-1:before {
+  content: "M";
+}
+
+.icon-abt-co-vis-2:before {
+  content: "N";
+}
+
+.icon-abt-co-vis-3:before {
+  content: "O";
+}
+
+.icon-abt-co-vis-4:before {
+  content: "P";
+}
+
+.icon-abt-co-vis-5:before {
+  content: "Q";
+}
+
+.icon-abt-co-vis-6:before {
+  content: "R";
+}
+
+.icon-awards-1:before {
+  content: "S";
+}
+
+.icon-awards-2:before {
+  content: "T";
+}
+
+.icon-awards-3:before {
+  content: "U";
+}
+
+.icon-awards-4:before {
+  content: "V";
+}
+
+.icon-awards-5:before {
+  content: "W";
+}
+
+.icon-awards-6:before {
+  content: "X";
+}
+
+.icon-awards-7:before {
+  content: "Y";
+}
+
+.icon-awards-8:before {
+  content: "Z";
+}
+
+.icon-awards-9:before {
+  content: "0";
+}
+
+.icon-awards-10:before {
+  content: "1";
+}
+
+.icon-bs-28x28-1:before {
+  content: "2";
+}
+
+.icon-bs-28x28-2:before {
+  content: "3";
+}
+
+.icon-bs-28x28-3:before {
+  content: "4";
+}
+
+.icon-bs-28x28-4:before {
+  content: "5";
+}
+
+.icon-bs-28x28-5:before {
+  content: "6";
+}
+
+.icon-bs-28x28-6:before {
+  content: "7";
+}
+
+.icon-bs-72x54-1:before {
+  content: "8";
+}
+
+.icon-bs-72x54-2:before {
+  content: "9";
+}
+
+.icon-bs-72x54-3:before {
+  content: "!";
+}
+
+.icon-ehr-28x28-1:before {
+  content: "\"";
+}
+
+.icon-ehr-28x28-2:before {
+  content: "#";
+}
+
+.icon-ehr-28x28-3:before {
+  content: "$";
+}
+
+.icon-ehr-28x28-4:before {
+  content: "%";
+}
+
+.icon-ehr-28x28-5:before {
+  content: "&";
+}
+
+.icon-ehr-28x28-6:before {
+  content: "'";
+}
+
+.icon-ehr-28x28-7:before {
+  content: "(";
+}
+
+.icon-ehr-28x28-8:before {
+  content: ")";
+}
+
+.icon-ehr-72x54-1:before {
+  content: "*";
+}
+
+.icon-ehr-72x54-2:before {
+  content: "+";
+}
+
+.icon-ehr-72x54-3:before {
+  content: ",";
+}
+
+.icon-home-72x54-1:before {
+  content: "-";
+}
+
+.icon-home-72x54-2:before {
+  content: ".";
+}
+
+.icon-home-72x54-3:before {
+  content: "/";
+}
+
+.icon-newsroom-1:before {
+  content: ":";
+}
+
+.icon-newsroom-2:before {
+  content: "b";
+}
+
+.icon-pm-28x28-1:before {
+  content: "c";
+}
+
+.icon-pm-28x28-2:before {
+  content: "d";
+}
+
+.icon-pm-28x28-3:before {
+  content: "e";
+}
+
+.icon-pm-28x28-4:before {
+  content: ";";
+}
+
+.icon-pm-28x28-5:before {
+  content: "<";
+}
+
+.icon-pm-28x28-6:before {
+  content: "=";
+}
+
+.icon-pm-28x28-7:before {
+  content: ">";
+}
+
+.icon-pm-28x28-8:before {
+  content: "?";
+}
+
+.icon-pm-72x54-1:before {
+  content: "@";
+}
+
+.icon-pm-72x54-2:before {
+  content: "[";
+}
+
+.icon-pm-72x54-3:before {
+  content: "]";
+}
+
+.icon-pricing-contact-1:before {
+  content: "q";
+}
+
+.icon-pricing-download-1:before {
+  content: "_";
+}
+
+.icon-pricing-support-1:before {
+  content: "`";
+}
+
+.icon-pricing-top-1:before {
+  content: "{";
+}
+
+.icon-graph:before {
+  content: "|";
+}
+
+.icon-plane:before {
+  content: "\7e";
+}
+
+.reduce {
+  font-size: 1.33em;
+  display: inline-block;
+}
+
+.icon-smh-28x28-1:before {
+  content: url(../../images/optimized/icons-glyphs/icon_smh_small_01.png);
+}
+
+.icon-smh-28x28-2:before {
+  content: url(../../images/optimized/icons-glyphs/icon_smh_small_02.png);
+}
+
+.icon-smh-28x28-3:before {
+  content: url(../../images/optimized/icons-glyphs/icon_smh_small_03.png);
+}
+
+.icon-aoi-55x55-1:before {
+  content: url(../../images/optimized/icons-glyphs/icon-aoi-get-a-reward-55x55.png);
+}
+
+.icon-aoi-55x55-2:before {
+  content: url(../../images/optimized/icons-glyphs/icon-aoi-make-a-referral-55x55.png);
+}
+
+.icon-aoi-55x55-3:before {
+  content: url(../../images/optimized/icons-glyphs/icon-aoi-our-team-is-yours-55x55.png);
+}

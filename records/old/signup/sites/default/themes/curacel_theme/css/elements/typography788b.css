@@ -1,0 +1,937 @@
+/** ---------------------------------------------------------
+      Global Colors
+    ---------------------------------------------------------*/
+/* isn't this name a little vague?  we use a few background colors? */
+/**
+    Font Families
+*/
+/***Fonts and Font Weights****/
+/** ---------------------------------------------------------
+      Global Colors
+    ---------------------------------------------------------*/
+/* isn't this name a little vague?  we use a few background colors? */
+/**
+    Font Families
+*/
+/***Fonts and Font Weights****/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body:before {
+  content: '';
+  display: inline-block;
+  background-image: deprecated-webkit-gradient(linear, left top, left bottom, transparent 0, #eeeeee 0, #eeeeee 6.38298%, transparent 6.38298%, transparent 8.51064%, #eeeeee 8.51064%, #eeeeee 14.89362%, transparent 14.89362%, transparent 17.02128%, #eeeeee 17.02128%, #eeeeee 23.40426%, transparent 23.40426%, transparent 25.53191%, #eeeeee 25.53191%, #eeeeee 31.91489%, transparent 31.91489%, transparent 34.04255%, #eeeeee 34.04255%, #eeeeee 40.42553%, transparent 40.42553%, transparent 42.55319%, #eeeeee 42.55319%, #eeeeee 48.93617%, transparent 48.93617%, transparent 51.06383%, #eeeeee 51.06383%, #eeeeee 57.44681%, transparent 57.44681%, transparent 59.57447%, #eeeeee 59.57447%, #eeeeee 65.95745%, transparent 65.95745%, transparent 68.08511%, #eeeeee 68.08511%, #eeeeee 74.46809%, transparent 74.46809%, transparent 76.59574%, #eeeeee 76.59574%, #eeeeee 82.97872%, transparent 82.97872%, transparent 85.10638%, #eeeeee 85.10638%, #eeeeee 91.48936%, transparent 91.48936%, transparent 93.61702%, #eeeeee 93.61702%, #eeeeee 100.0%, transparent 100.0%);
+  background-image: -webkit-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.38298%, transparent 6.38298%, transparent 8.51064%, #eeeeee 8.51064%, #eeeeee 14.89362%, transparent 14.89362%, transparent 17.02128%, #eeeeee 17.02128%, #eeeeee 23.40426%, transparent 23.40426%, transparent 25.53191%, #eeeeee 25.53191%, #eeeeee 31.91489%, transparent 31.91489%, transparent 34.04255%, #eeeeee 34.04255%, #eeeeee 40.42553%, transparent 40.42553%, transparent 42.55319%, #eeeeee 42.55319%, #eeeeee 48.93617%, transparent 48.93617%, transparent 51.06383%, #eeeeee 51.06383%, #eeeeee 57.44681%, transparent 57.44681%, transparent 59.57447%, #eeeeee 59.57447%, #eeeeee 65.95745%, transparent 65.95745%, transparent 68.08511%, #eeeeee 68.08511%, #eeeeee 74.46809%, transparent 74.46809%, transparent 76.59574%, #eeeeee 76.59574%, #eeeeee 82.97872%, transparent 82.97872%, transparent 85.10638%, #eeeeee 85.10638%, #eeeeee 91.48936%, transparent 91.48936%, transparent 93.61702%, #eeeeee 93.61702%, #eeeeee 100.0%, transparent 100.0%);
+  background-image: -moz-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.38298%, transparent 6.38298%, transparent 8.51064%, #eeeeee 8.51064%, #eeeeee 14.89362%, transparent 14.89362%, transparent 17.02128%, #eeeeee 17.02128%, #eeeeee 23.40426%, transparent 23.40426%, transparent 25.53191%, #eeeeee 25.53191%, #eeeeee 31.91489%, transparent 31.91489%, transparent 34.04255%, #eeeeee 34.04255%, #eeeeee 40.42553%, transparent 40.42553%, transparent 42.55319%, #eeeeee 42.55319%, #eeeeee 48.93617%, transparent 48.93617%, transparent 51.06383%, #eeeeee 51.06383%, #eeeeee 57.44681%, transparent 57.44681%, transparent 59.57447%, #eeeeee 59.57447%, #eeeeee 65.95745%, transparent 65.95745%, transparent 68.08511%, #eeeeee 68.08511%, #eeeeee 74.46809%, transparent 74.46809%, transparent 76.59574%, #eeeeee 76.59574%, #eeeeee 82.97872%, transparent 82.97872%, transparent 85.10638%, #eeeeee 85.10638%, #eeeeee 91.48936%, transparent 91.48936%, transparent 93.61702%, #eeeeee 93.61702%, #eeeeee 100.0%, transparent 100.0%);
+  background-image: -ms-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.38298%, transparent 6.38298%, transparent 8.51064%, #eeeeee 8.51064%, #eeeeee 14.89362%, transparent 14.89362%, transparent 17.02128%, #eeeeee 17.02128%, #eeeeee 23.40426%, transparent 23.40426%, transparent 25.53191%, #eeeeee 25.53191%, #eeeeee 31.91489%, transparent 31.91489%, transparent 34.04255%, #eeeeee 34.04255%, #eeeeee 40.42553%, transparent 40.42553%, transparent 42.55319%, #eeeeee 42.55319%, #eeeeee 48.93617%, transparent 48.93617%, transparent 51.06383%, #eeeeee 51.06383%, #eeeeee 57.44681%, transparent 57.44681%, transparent 59.57447%, #eeeeee 59.57447%, #eeeeee 65.95745%, transparent 65.95745%, transparent 68.08511%, #eeeeee 68.08511%, #eeeeee 74.46809%, transparent 74.46809%, transparent 76.59574%, #eeeeee 76.59574%, #eeeeee 82.97872%, transparent 82.97872%, transparent 85.10638%, #eeeeee 85.10638%, #eeeeee 91.48936%, transparent 91.48936%, transparent 93.61702%, #eeeeee 93.61702%, #eeeeee 100.0%, transparent 100.0%);
+  background-image: -o-linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.38298%, transparent 6.38298%, transparent 8.51064%, #eeeeee 8.51064%, #eeeeee 14.89362%, transparent 14.89362%, transparent 17.02128%, #eeeeee 17.02128%, #eeeeee 23.40426%, transparent 23.40426%, transparent 25.53191%, #eeeeee 25.53191%, #eeeeee 31.91489%, transparent 31.91489%, transparent 34.04255%, #eeeeee 34.04255%, #eeeeee 40.42553%, transparent 40.42553%, transparent 42.55319%, #eeeeee 42.55319%, #eeeeee 48.93617%, transparent 48.93617%, transparent 51.06383%, #eeeeee 51.06383%, #eeeeee 57.44681%, transparent 57.44681%, transparent 59.57447%, #eeeeee 59.57447%, #eeeeee 65.95745%, transparent 65.95745%, transparent 68.08511%, #eeeeee 68.08511%, #eeeeee 74.46809%, transparent 74.46809%, transparent 76.59574%, #eeeeee 76.59574%, #eeeeee 82.97872%, transparent 82.97872%, transparent 85.10638%, #eeeeee 85.10638%, #eeeeee 91.48936%, transparent 91.48936%, transparent 93.61702%, #eeeeee 93.61702%, #eeeeee 100.0%, transparent 100.0%);
+  background-image: linear-gradient(left, transparent 0, #eeeeee 0, #eeeeee 6.38298%, transparent 6.38298%, transparent 8.51064%, #eeeeee 8.51064%, #eeeeee 14.89362%, transparent 14.89362%, transparent 17.02128%, #eeeeee 17.02128%, #eeeeee 23.40426%, transparent 23.40426%, transparent 25.53191%, #eeeeee 25.53191%, #eeeeee 31.91489%, transparent 31.91489%, transparent 34.04255%, #eeeeee 34.04255%, #eeeeee 40.42553%, transparent 40.42553%, transparent 42.55319%, #eeeeee 42.55319%, #eeeeee 48.93617%, transparent 48.93617%, transparent 51.06383%, #eeeeee 51.06383%, #eeeeee 57.44681%, transparent 57.44681%, transparent 59.57447%, #eeeeee 59.57447%, #eeeeee 65.95745%, transparent 65.95745%, transparent 68.08511%, #eeeeee 68.08511%, #eeeeee 74.46809%, transparent 74.46809%, transparent 76.59574%, #eeeeee 76.59574%, #eeeeee 82.97872%, transparent 82.97872%, transparent 85.10638%, #eeeeee 85.10638%, #eeeeee 91.48936%, transparent 91.48936%, transparent 93.61702%, #eeeeee 93.61702%, #eeeeee 100.0%, transparent 100.0%);
+  height: 100%;
+  left: 0;
+  margin: 0 auto;
+  max-width: em(1170, 16);
+  opacity: 0.4;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/** ---------------------------------------------------------
+      Helper Classses
+    ---------------------------------------------------------*/
+.orange {
+  color: #f7941e !important;
+}
+
+.span2 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 14.89362%;
+}
+.span2:last-child {
+  margin-right: 0;
+}
+
+.span3 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 23.40426%;
+}
+.span3:last-child {
+  margin-right: 0;
+}
+
+.span4 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 31.91489%;
+}
+.span4:last-child {
+  margin-right: 0;
+}
+
+.span5 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 40.42553%;
+}
+.span5:last-child {
+  margin-right: 0;
+}
+
+.span6 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 48.93617%;
+}
+.span6:last-child {
+  margin-right: 0;
+}
+
+.span7 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 57.44681%;
+}
+.span7:last-child {
+  margin-right: 0;
+}
+
+.span8 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 65.95745%;
+}
+.span8:last-child {
+  margin-right: 0;
+}
+
+.span9 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 74.46809%;
+}
+.span9:last-child {
+  margin-right: 0;
+}
+
+.span10 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 82.97872%;
+}
+.span10:last-child {
+  margin-right: 0;
+}
+
+.span11 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 91.48936%;
+}
+.span11:last-child {
+  margin-right: 0;
+}
+
+.span12 {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 100%;
+}
+.span12:last-child {
+  margin-right: 0;
+}
+
+.last {
+  margin-right: 0 !important;
+}
+
+.block {
+  display: block !important;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+.left {
+  float: left !important;
+}
+
+.right {
+  float: right !important;
+}
+
+.alignleft {
+  text-align: left;
+}
+
+.alignright {
+  text-align: right;
+}
+
+.first {
+  margin-top: 0px !important;
+}
+
+.col1 {
+  width: 8.33%;
+}
+
+.col2 {
+  width: 16.67%;
+}
+
+.col3 {
+  width: 25%;
+}
+
+.col4 {
+  width: 33%;
+}
+
+.col5 {
+  width: 41.67%;
+}
+
+.col6 {
+  width: 50%;
+}
+
+.col7 {
+  width: 58.33%;
+}
+
+.col8 {
+  width: 67%;
+}
+
+.col9 {
+  width: 75%;
+}
+
+.col10 {
+  width: 83.33%;
+}
+
+.col11 {
+  width: 91.6%;
+}
+
+.col12 {
+  width: 100%;
+}
+
+.pad0 {
+  padding: 0 !important;
+}
+
+.padB0 {
+  padding-bottom: 0px !important;
+}
+
+.padBhalf {
+  padding-bottom: 0.5em !important;
+}
+
+.padB1 {
+  padding-bottom: 1em !important;
+}
+
+.padB2 {
+  padding-bottom: 2em !important;
+}
+
+.padB3 {
+  padding-bottom: 3em !important;
+}
+
+.padB4 {
+  padding-bottom: 4em !important;
+}
+
+.padT0 {
+  padding-top: 0px !important;
+}
+
+.padT1 {
+  padding-top: 1em !important;
+}
+
+.padT2 {
+  padding-top: 2em !important;
+}
+
+.padT3 {
+  padding-top: 3em !important;
+}
+
+.padT4 {
+  padding-top: 4em !important;
+}
+
+.mar0 {
+  margin: 0 !important;
+}
+
+.marB0 {
+  margin-bottom: 0px !important;
+}
+
+.marBhalf {
+  margin-bottom: 0.5em !important;
+}
+
+.marB1 {
+  margin-bottom: 1em !important;
+}
+
+.marB2 {
+  margin-bottom: 2em !important;
+}
+
+.marB3 {
+  margin-bottom: 3em !important;
+}
+
+.marB4 {
+  margin-bottom: 4em !important;
+}
+
+.marT0 {
+  margin-top: 0px !important;
+}
+
+.marT1 {
+  margin-top: 1em !important;
+}
+
+.marT2 {
+  margin-top: 2em !important;
+}
+
+.marT3 {
+  margin-top: 3em !important;
+}
+
+.marT4 {
+  margin-top: 4em !important;
+}
+
+.marL1 {
+  margin-left: 1em !important;
+}
+
+.marL2 {
+  margin-left: 2em !important;
+}
+
+.u {
+  text-decoration: underline !important;
+}
+
+.lt-gray-border {
+  border: 1px solid #dedede;
+}
+
+/** --------------------------------------------------------
+    Kareo Specific Buttons
+    -------------------------------------------------------- */
+/* Let's try a generic button.  Colors and size defined byadditional classes */
+.btn-lg-red, .btn-lg-orng, .btn-lg-ltblue, .btn-lg-blue, .btn-lg-dkblue, .btn-lg-db-blue, .btn-lg-wht, .btn-lg-clear, .btn-md-purp, .btn-md-ltgreen, .brdr-btn-md-ltgreen, .btn-md-dkgreen, .brdr-btn-md-dkgreen, .btn-md-dbblue, .brdr-btn-md-dbblue, .brdr-btn-md-peblue, .btn-md-blue, .load-more-snappy, .brdr-btn-md-blue, .brdr-btn-md-red, .btn-md-orng, .brdr-btn-md-orng, .btn-sm-orng, .btn-sm-ltgreen, .brdr-btn-sm-ltgreen, .btn-sm-blue, .brdr-btn-sm-blue, .brdr-btn-sm-dbblue, .btn-sm-bgblue, .btn-sm-wht, .btn-sm-wht-org {
+  border: 0;
+  text-align: center;
+  border-radius: 50px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-transition: all 250ms ease-in;
+  -moz-transition: all 250ms ease-in;
+  transition: all 250ms ease-in;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  font-size: 0.8125em;
+  color: white;
+}
+.btn-lg-red:hover, .btn-lg-orng:hover, .btn-lg-ltblue:hover, .btn-lg-blue:hover, .btn-lg-dkblue:hover, .btn-lg-db-blue:hover, .btn-lg-wht:hover, .btn-lg-clear:hover, .btn-md-purp:hover, .btn-md-ltgreen:hover, .brdr-btn-md-ltgreen:hover, .btn-md-dkgreen:hover, .brdr-btn-md-dkgreen:hover, .btn-md-dbblue:hover, .brdr-btn-md-dbblue:hover, .brdr-btn-md-peblue:hover, .btn-md-blue:hover, .load-more-snappy:hover, .brdr-btn-md-blue:hover, .brdr-btn-md-red:hover, .btn-md-orng:hover, .brdr-btn-md-orng:hover, .btn-sm-orng:hover, .btn-sm-ltgreen:hover, .brdr-btn-sm-ltgreen:hover, .btn-sm-blue:hover, .brdr-btn-sm-blue:hover, .brdr-btn-sm-dbblue:hover, .btn-sm-bgblue:hover, .btn-sm-wht:hover, .btn-sm-wht-org:hover {
+  color: white;
+}
+
+.btn-lg-red, .btn-lg-orng, .btn-lg-ltblue, .btn-lg-blue, .btn-lg-dkblue, .btn-lg-db-blue, .btn-lg-wht, .btn-lg-clear {
+  padding: 16px 45px;
+}
+
+.btn-md-purp, .btn-md-ltgreen, .brdr-btn-md-ltgreen, .btn-md-dkgreen, .brdr-btn-md-dkgreen, .btn-md-dbblue, .brdr-btn-md-dbblue, .brdr-btn-md-peblue, .btn-md-blue, .load-more-snappy, .brdr-btn-md-blue, .brdr-btn-md-red, .btn-md-orng, .brdr-btn-md-orng {
+  padding: 11px 46px;
+}
+
+.btn-sm-orng, .btn-sm-ltgreen, .brdr-btn-sm-ltgreen, .btn-sm-blue, .brdr-btn-sm-blue, .brdr-btn-sm-dbblue, .btn-sm-bgblue, .btn-sm-wht, .btn-sm-wht-org {
+  padding: 9px 35px;
+}
+
+/***Large Buttons ***/
+/*********************/
+/***Medium Buttons***/
+/*******************/
+/*******************/
+/***Small Buttons***/
+/*******************/
+/*** Play Buttons
+todo: include video play button here ***/
+/***Base K-Plate Reset****/
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2 {
+  font-weight: 100;
+}
+
+h3, h4 {
+  color: #999;
+  font-weight: 400;
+}
+h3.subheading, h4.subheading {
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 2.25em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.625em;
+}
+
+h4 {
+  font-size: 1.375em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+p {
+  font-size: 1em;
+  margin: 0 0 1em 0;
+}
+
+a {
+  color: #58b1d0;
+  text-decoration: none;
+  transition: color 200ms ease-out;
+  font-family: "Source Sans Pro", sans-serif;
+}
+a:hover {
+  color: #58b1d0;
+}
+a:active {
+  color: #58b1d0;
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin: 2em 0;
+}
+
+img, picture {
+  margin-top: 15px;
+  max-width: 100%;
+}
+
+/***Begin Kareo Specific Typography****/
+/***Hero & Upsell Lockup****/
+p.indicant {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  font-size: 1.0625em;
+  line-height: 55px;
+  color: #1b1d1e;
+  margin: 0 0 0.4em 0;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1.main-title {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 3.75em;
+  line-height: 52px;
+  color: #1b1d1e;
+  margin-bottom: 0.3125em;
+  -webkit-font-smoothing: antialiased;
+}
+
+h3.sub-txt {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 22px;
+  color: #778185;
+  -webkit-font-smoothing: antialiased;
+}
+
+/***Standalone Header****/
+h1.standalone {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 2.75em;
+  line-height: 52px;
+  color: #1b1d1e;
+  -webkit-font-smoothing: antialiased;
+}
+
+/***Head + Body***/
+h2 {
+  font-weight: 300;
+  font-size: 2.375em;
+  line-height: 44px;
+  color: #1b1d1e;
+  margin-bottom: 0.4375em;
+  -webkit-font-smoothing: antialiased;
+}
+
+p, li {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 22px;
+  color: #778185;
+  -webkit-font-smoothing: antialiased;
+}
+
+/***Head + Body Alt***/
+h2.alt {
+  font-weight: 700;
+  font-size: 1.0625em;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #1b1d1e;
+  -webkit-font-smoothing: antialiased;
+}
+
+p.alt {
+  font-weight: 300;
+  font-size: 1.5em;
+  line-height: 32px;
+  color: #1b1d1e;
+  -webkit-font-smoothing: antialiased;
+}
+
+/***Subpoint Large***/
+h2.subpoint-lg {
+  font-weight: 600;
+  font-size: 1.3125em;
+  line-height: 34px;
+  margin-bottom: 0.625em;
+  -webkit-font-smoothing: antialiased;
+}
+
+p.subpoint-lg {
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 22px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/***Subpoint Small***/
+h2.subpoint-sm {
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 22px;
+  color: #1b1d1e;
+  -webkit-font-smoothing: antialiased;
+}
+
+p.subpoint-sm {
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 22px;
+  color: #778185;
+  -webkit-font-smoothing: antialiased;
+}
+
+/***Large Buttons***/
+.btn-lg-red {
+  background-color: #f26649;
+  border-radius: 50px;
+}
+.btn-lg-red:hover {
+  background-color: #F18B76;
+}
+
+.btn-lg-orng {
+  background-color: #f7941d;
+  border-radius: 50px;
+}
+.btn-lg-orng:hover {
+  background-color: #ffad4a;
+}
+
+.btn-lg-blue{
+  background-color: #63afe0;
+  border-radius: 50px;
+}
+
+.btn-lg-blue:hover {
+  background-color: #3c96b6;
+}
+
+.btn-lg-ltblue {
+  background-color: #58b0cf;
+  border-radius: 50px;
+}
+.btn-lg-ltblue:hover {
+  background-color: #86d5f1;
+}
+
+.btn-lg-dkblue {
+  background-color: #3c96b6;
+  border-radius: 50px;
+}
+.btn-lg-dkblue:hover {
+  background-color: #58b0cf;
+}
+
+.btn-lg-db-blue {
+  background-color: #14A0D2;
+  border-radius: 50px;
+}
+.btn-lg-db-blue:hover {
+  background-color: transparent;
+  color: #14A0D2;
+}
+
+.btn-lg-wht {
+  color: #2d393c;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 50px;
+}
+.btn-lg-wht:hover {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.btn-lg-clear {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+.btn-lg-clear:hover {
+  background-color: white;
+  color: #2d393c;
+}
+
+/***Medium Buttons***/
+.btn-md-purp {
+  background-color: #785a78;
+  border-radius: 50px;
+}
+.btn-md-purp:hover {
+  background-color: #a678a6;
+}
+
+.btn-md-ltgreen {
+  background-color: #a8c33f;
+  border-radius: 50px;
+}
+.btn-md-ltgreen:hover {
+  background-color: #b7d446;
+}
+
+.brdr-btn-md-ltgreen {
+  border: 1px solid #a8c33f !important;
+  color: #a8c33f !important;
+  overflow: hidden;
+}
+.brdr-btn-md-ltgreen:hover {
+  background-color: #a8c33f;
+  color: white !important;
+}
+
+.btn-md-dkgreen {
+  background-color: #8faa29;
+  padding: 11px 35px;
+  border-radius: 50px;
+}
+.btn-md-dkgreen:hover {
+  background-color: #a1bf2e;
+}
+
+.brdr-btn-md-dkgreen {
+  border: 1px solid #8faa29 !important;
+  color: #8faa29 !important;
+  overflow: hidden;
+  padding: 11px 35px;
+  border-radius: 50px;
+}
+.brdr-btn-md-dkgreen:hover {
+  background-color: #8faa29;
+  color: white !important;
+}
+
+.btn-md-dbblue {
+  background-color: #14A0D2;
+  padding: 11px 35px;
+  border-radius: 50px;
+}
+.btn-md-dbblue:hover {
+  background-color: #4fb4d9;
+}
+
+.brdr-btn-md-dbblue {
+  border: 1px solid #14A0D2 !important;
+  color: #14A0D2 !important;
+  overflow: hidden;
+  padding: 11px 35px;
+  border-radius: 50px;
+}
+.brdr-btn-md-dbblue:hover {
+  background-color: #14A0D2;
+  color: white !important;
+}
+.brdr-btn-md-dbblue:hover {
+  background-color: #14A0D2;
+  color: white !important;
+}
+
+.brdr-btn-md-peblue {
+  border: 1px solid #2a84be !important;
+  color: #2a84be !important;
+  overflow: hidden;
+  padding: 11px 35px;
+  border-radius: 50px;
+}
+.brdr-btn-md-peblue:hover {
+  background-color: #2a84be;
+  color: white !important;
+}
+.brdr-btn-md-peblue:hover {
+  background-color: #2a84be;
+  color: white !important;
+}
+
+.btn-md-blue, .load-more-snappy {
+  background-color: #58b1d0;
+  border-radius: 50px;
+}
+.btn-md-blue:hover, .load-more-snappy:hover {
+  background-color: #69b9d5;
+}
+
+.brdr-btn-md-blue {
+  border: 1px solid #58b1d0 !important;
+  color: #58b1d0 !important;
+  overflow: hidden;
+}
+.brdr-btn-md-blue:hover {
+  background-color: #58b1d0;
+  color: white !important;
+}
+
+.brdr-btn-md-red {
+  border: 1px solid #f26649 !important;
+  color: #f26649 !important;
+  overflow: hidden;
+}
+.brdr-btn-md-red:hover {
+  background-color: #f26649;
+  color: white !important;
+}
+
+.btn-md-orng {
+  background-color: #f7941e;
+}
+.btn-md-orng:hover {
+  background-color: #f89f35;
+}
+
+.brdr-btn-md-orng {
+  border: 1px solid #f7941e !important;
+  color: #f7941e !important;
+  overflow: hidden;
+}
+.brdr-btn-md-orng:hover {
+  background-color: #f7941e;
+  color: white !important;
+}
+
+/***Small Buttons***/
+.btn-sm-orng {
+  background-color: #f59331;
+}
+.btn-sm-orng:hover {
+  background-color: #ffad4a;
+}
+
+.btn-sm-orng {
+  background-color: #f59331;
+}
+.btn-sm-orng:hover {
+  background-color: #ffad4a;
+}
+
+.btn-sm-ltgreen {
+  background-color: #a8c33f;
+}
+.btn-sm-ltgreen:hover {
+  background-color: #d1d58d;
+  color: white;
+}
+
+.brdr-btn-sm-ltgreen {
+  border: 1px solid #a8c33f !important;
+  color: #a8c33f !important;
+  overflow: hidden;
+}
+.brdr-btn-sm-ltgreen:hover {
+  background-color: #a8c33f;
+  color: white !important;
+}
+
+.btn-sm-blue {
+  color: #5cb0cd;
+  background-color: transparent;
+  border: 1px solid #5cb0cd;
+  padding: 9px 56px;
+}
+.btn-sm-blue:hover {
+  background-color: #5cb0cd;
+}
+
+.brdr-btn-sm-blue {
+  border: 1px solid #58b1d0 !important;
+  color: #58b1d0 !important;
+  overflow: hidden;
+}
+.brdr-btn-sm-blue:hover {
+  background-color: #58b1d0;
+  color: white !important;
+}
+.brdr-btn-sm-blue:hover {
+  background-color: #58b1d0;
+  color: white !important;
+}
+
+.brdr-btn-sm-dbblue {
+  border: 1px solid #14A0D2 !important;
+  color: #14A0D2 !important;
+  overflow: hidden;
+}
+.brdr-btn-sm-dbblue:hover {
+  background-color: #14A0D2;
+  color: white !important;
+}
+.brdr-btn-sm-dbblue:hover {
+  background-color: #14A0D2;
+  color: white !important;
+}
+
+.btn-sm-bgblue {
+  border: 1px solid #14A0D2 !important;
+  color: #14A0D2 !important;
+  overflow: hidden;
+  background-color: #14A0D2;
+  color: white !important;
+  padding: 9px 30px !important;
+}
+.btn-sm-bgblue:hover {
+  background-color: white !important;
+  color: #14A0D2 !important;
+}
+
+.btn-sm-wht {
+  color: #f7941e;
+  background-color: white;
+  border: 1px solid white;
+}
+.btn-sm-wht:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.btn-sm-wht-org {
+  color: #f7941e;
+  background-color: white;
+  border: 1px solid white;
+  color: #f7941e;
+}
+.btn-sm-wht-org:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.btn-play {
+  color: #5cb0cd;
+  font-size: 0.6875em;
+  text-align: center;
+  background-color: transparent;
+  padding: 15px 30px 15px 6px;
+  border-radius: 25px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  -webkit-transition: all 250ms ease-in;
+  -moz-transition: all 250ms ease-in;
+  transition: all 250ms ease-in;
+  -webkit-font-smoothing: antialiased;
+}
+.btn-play i {
+  border: 1px solid #5cb0cd;
+  border-radius: 50%;
+  text-align: center;
+  padding: 7px 5px;
+  margin-right: 10px;
+  text-indent: 5px;
+  position: relative;
+  font-size: 12px;
+  border: 1px solid #5cb0cd;
+  display: inline-block;
+  line-height: 1;
+  -webkit-transition: all 250ms ease-in;
+  -moz-transition: all 250ms ease-in;
+  transition: all 250ms ease-in;
+}
+.btn-play:hover {
+  background-color: #5cb0cd;
+  color: white;
+}
+.btn-play:hover i {
+  border-color: white;
+  color: white;
+}
